@@ -7,6 +7,16 @@
     margin: 0;
 }
 
+.text-RedHat16{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0;
+    text-decoration: none;
+}
+
 .text-RedHat20{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 20px;
@@ -39,6 +49,17 @@
     margin: 0;
     text-decoration: none;
 }
+
+.text-RedHat36{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+    text-decoration: none;
+}
+
 
 .text-RedHat60{
     font-family: 'Red Hat Display', sans-serif;
