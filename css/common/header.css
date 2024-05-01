@@ -40,3 +40,9 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
+.icon-sign-up{
+    height: 40px;
+    width: 40px;
+    margin: 55px 0 0 calc(100% - (296px + 40px + 180px + 185px));
+}
