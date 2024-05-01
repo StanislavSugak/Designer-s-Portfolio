@@ -7,3 +7,10 @@ menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle('active')
 }
 )
+
+window.addEventListener('scroll', () => {
+    if(menu.classList.contains('active')){
+        menu.classList.remove('active');
+        menuBtn.classList.remove('active');
+    }
+});
