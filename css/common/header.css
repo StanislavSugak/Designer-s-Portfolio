@@ -41,6 +41,53 @@ header{
     align-items: center;
 }
 
+.dropdown{
+    position: relative;
+    display: none;
+    height: 40px;
+    width: 80px;
+    align-items: center;
+    margin: 55px 0 0 20px;
+}
+
+.dropdown-toggle{
+    border: none;
+    background: none;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+    height: fit-content;
+    width: 80px;
+    text-align: left;
+    color: var(--active-color-nav-bar);
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    position: absolute;
+    top: 120%;
+    left: -41%;
+    height: 120px;
+    width: 140px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        to bottom,
+        hsla(0, 0%, 100%, 1) 0%,
+        hsla(0, 0%, 100%, 0.75) 100%
+      );
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    transition: all 1s;
+}
+
+.dropdown-menu-show{
+    display: flex;
+}
+
 .icon-sign-up{
     height: 40px;
     width: 40px;
@@ -230,6 +277,14 @@ label
 /*---light-dark theme checkbox---*/
 
 @media(max-width: 767px){
+    .logo{
+        margin-left: 30px;
+    }
+
+    .dropdown{
+        display: flex;
+    }
+
     .nav-bar{
         display: none;
     }
