@@ -121,6 +121,51 @@ header{
     background-color: black;
 }
 
+.burger-icon.active .line-burger-icon:first-child{
+    animation: transRotate 1s forwards;
+}
+
+.burger-icon.active .line-burger-icon:nth-child(2){
+    animation: OpacityMore 0.5s forwards;
+}
+
+.burger-icon.active .line-burger-icon:last-child{
+    animation: transRotateReverse 1s forwards;
+}
+
+@keyframes transRotate {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(8px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(7px) rotate(45deg);
+    }
+}
+
+@keyframes transRotateReverse {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-8px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+}
+
+@keyframes OpacityMore{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
 .burger-menu{
     position: absolute;
     top: 120px;
