@@ -10,7 +10,7 @@
 .text-RedHat20{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 32px;
     font-weight: 500;
     color: #7E7F86;
     margin: 0;
@@ -19,4 +19,14 @@
 
 .text-RedHat20-active{
     color: var(--active-color-nav-bar);
+}
+
+.text-RedHat26{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #7E7F86;
+    margin: 0;
+    text-decoration: none;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
 
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -20,7 +22,41 @@
             <a href="#" class="text-RedHat20">Blog</a>
         </nav>
         <img src="../images/common/registration.png" alt="failed" class="icon-sign-up">
-        
+        <div class="header-menu">
+            <div class="rectangle-menu">
+                <div class="burger-icon">
+                    <div class="line-burger-icon"></div>
+                    <div class="line-burger-icon"></div>
+                    <div class="line-burger-icon"></div>
+                </div>
+            </div>
+            <div class="burger-menu">
+                <p class="text-RedHat26 upper-text-burger">Language</p>
+                <div class="burger-menu-line"></div>
+                <p class="text-RedHat20 lower-text-burger">Russia</p>
+                <div class="burger-menu-line-little"></div>
+                <p class="text-RedHat20 lower-text-burger">English</p>
+
+                <p class="text-RedHat26 upper-text-burger">Authorization</p>
+                <div class="burger-menu-line"></div>
+                <p class="text-RedHat20 lower-text-burger">Sign up</p>
+                <div class="burger-menu-line-little"></div>
+                <p class="text-RedHat20 lower-text-burger">Registration</p>
+
+                <p class="text-RedHat26 upper-text-burger">Theme</p>
+                <div class="burger-menu-line"></div>
+                <input type="checkbox" id="toggle_checkbox">
+                <label for="toggle_checkbox">
+                    <div id="star">
+                        <div class="star" id="star-1">★</div>
+                        <div class="star" id="star-2">★</div>
+                    </div>
+                    <div id="moon"></div>
+                </label>
+            </div>
+        </div>
     </header>
 </body>
+<script src="../js/common/burgerMenu.js"></script>
+
 </html>
