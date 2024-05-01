@@ -3,13 +3,11 @@
     height: fit-content;
     width: calc(100% - 200px);
     padding: 30px 100px;
-    background-color: red;
 }
 
 .hello-container{
     height: fit-content;
     width: 100%;
-    background-color: yellow;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
