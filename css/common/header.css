@@ -228,3 +228,21 @@ label
     background-color: #000;
 }
 /*---light-dark theme checkbox---*/
+
+@media(max-width: 767px){
+    .nav-bar{
+        display: none;
+    }
+
+    .icon-sign-up{
+        height: 30px;
+        width: 30px;
+        margin: 60px 0 0 calc(100% - (80px + 20px + 30px + 40px + 30px + 100px));
+    }
+
+    .rectangle-menu{
+        height: 50px;
+        width: 50px;
+        margin: 50px 0 0 10px;
+    }
+}
