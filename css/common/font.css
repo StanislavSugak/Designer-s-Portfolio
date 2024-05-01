@@ -6,3 +6,17 @@
     color: white;
     margin: 0;
 }
+
+.text-RedHat20{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #7E7F86;
+    margin: 0;
+    text-decoration: none;
+}
+
+.text-RedHat20-active{
+    color: var(--active-color-nav-bar);
+}

@@ -31,3 +31,12 @@ header{
     right: 0%;
     z-index: 1;
 }
+
+.nav-bar{
+    height: 40px;
+    width: 296px;
+    margin: 55px 0 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
