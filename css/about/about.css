@@ -97,6 +97,7 @@
         font-size: 48px;
     }
 }
+/*-----section hello-----*/
 
 /*---modal windows---*/
 .modal{
@@ -179,7 +180,7 @@
 .closer-line:last-of-type{
     transform: rotate(-45deg);
 }    
-/*-----section hello-----*/
+/*---modal windows---*/
 
 /*-----section portfolio------*/
 .portfolio{
@@ -281,3 +282,4 @@
         gap: 20px;
     }
 }
+/*-----section portfolio------*/

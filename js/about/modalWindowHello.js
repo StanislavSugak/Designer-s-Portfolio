@@ -1,6 +1,7 @@
-const modal = document.querySelector('.modal');
-const talkBtn = document.querySelector('.button-hello');
-const closerBtn = document.querySelector('.closer');
+const hsection = document.querySelector('.hello');
+const hmodal = hsection.querySelector('.modal');
+const htalkBtn = document.querySelector('.button-hello');
+const hcloserBtn = hsection.querySelector('.closer');
 
 const hbody = document.querySelector('body');
 
@@ -21,3 +22,4 @@ function disableScroll() {
 function enableScroll() {
     hbody.style.overflow = '';
 }
+
