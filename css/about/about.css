@@ -192,7 +192,7 @@
 }
 
 .portfolio-text-box{
-    height: 160px;
+    height: fit-content;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -204,7 +204,6 @@
     display: flex;
     flex-direction: column;
     min-width: 205px;
-    margin-right: 50px;
 }
 
 .portfolio-main-text-box > p:nth-child(1){
@@ -244,5 +243,34 @@
 }
 
 .portfolio-card{
+    height: fit-content;
     width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.portfolio-card img{
+    height: 420px;
+    width: 520px;
+}
+
+@media(max-width: 767px){
+    .portfolio{
+        width: calc(100% - 60px);
+        padding: 50px 30px;
+    }
+
+    .portfolio-card img{
+        height: 180px;
+        width: 240px;
+    }
+}
+
+@media(max-width: 434px){
+    .portfolio-container{
+        gap: 20px;
+    }
 }
