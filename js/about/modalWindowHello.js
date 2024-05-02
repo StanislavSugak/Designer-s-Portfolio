@@ -1,6 +1,7 @@
-const modal = document.querySelector('.modal');
+const section = document.querySelector('.hello');
+const modal = section.querySelector('.modal');
 const talkBtn = document.querySelector('.button-hello');
-const closerBtn = document.querySelector('.closer');
+const closerBtn = section.querySelector('.closer');
 
 const body = document.querySelector('body');
 
