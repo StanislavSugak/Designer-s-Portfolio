@@ -283,3 +283,72 @@
     }
 }
 /*-----section portfolio------*/
+
+/*-----clients------*/
+.clients{
+    height: fit-content;
+    width: calc(100% - 200px);
+    padding: 50px 100px;
+}
+
+.clients-container{
+    height: fit-content;
+    width: 100%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-text{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.clients-text > p:nth-child(1){
+    color: #8643DC;
+    letter-spacing: 1px;
+}
+
+.clients-text > p:nth-child(3){
+    color: var(--main-black);
+    max-width: 205px;
+    letter-spacing: 1.2px;
+    line-height: 48px;
+}
+
+.clients-card{
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.clients-content-card{
+    height: 170px;
+    width: 170px;
+    border-radius: 20px;
+    margin: 15px 0;
+    background-color: #FFF6FA;
+    border: 1px solid #FFE7F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-content-card img{
+    height: 50px;
+    width: 50px;
+}
+
+.clients-content-card p{
+    color: #25202F;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+/*-----clients------*/
