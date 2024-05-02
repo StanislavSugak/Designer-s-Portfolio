@@ -144,6 +144,12 @@
     max-width: 260px;
 }
 
+.modal-box a:nth-of-type(1){
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .modal-box-underline{
     height: 2px;
     width: 260px;
@@ -233,6 +239,7 @@
     min-width: 170px;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .portfolio-explore p:first-child{
