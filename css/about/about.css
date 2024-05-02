@@ -28,11 +28,11 @@
 }
 
 .text-container > p:nth-of-type(2){
-    color: var(--main-black:);
+    color: var(--main-black);
 }
 
 .text-container > p:nth-of-type(3){
-    color: var(--main-black:);
+    color: var(--main-black);
     margin: 20px 0 51px 0;
 }
 
