@@ -482,7 +482,7 @@
 }
 
 .testimonials-content div:nth-of-type(3){
-    grid-row: 104 / span 4;
+    grid-row: 105 / span 4;
     grid-column: 43 / span 24;
 }
 
@@ -541,6 +541,24 @@
     text-align: center;
     color: var(--main-black);
     font-weight: 900;
+}
+
+@media(max-width: 1019px){
+    .testimonials-content > img:nth-of-type(1){
+        display: none;
+    }
+    
+    .testimonials-content > img:nth-of-type(2){
+        display: none;
+    }
+
+    .testimonials-content img:nth-of-type(3){
+        grid-column: 30 / span 7;
+    }
+    
+    .testimonials-content img:nth-of-type(4){
+        grid-column: 73 / span 7;
+    }
 }
 
 /*-----testimonials-----*/
