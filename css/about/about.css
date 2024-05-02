@@ -319,19 +319,19 @@
 }
 
 .clients-card{
-    padding: 5px 0;
+    padding: 20px 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    row-gap: 30px;
+    column-gap: 50px;
 }
 
 .clients-content-card{
     height: 170px;
     width: 170px;
     border-radius: 20px;
-    margin: 15px 0;
     background-color: #FFF6FA;
     border: 1px solid #FFE7F0;
     display: flex;
@@ -350,5 +350,24 @@
     color: #25202F;
     font-weight: 700;
     letter-spacing: 1.2px;
+}
+
+@media(max-width: 815px){
+    .clients-card div:last-child{
+        display: none;
+    }
+}
+
+@media(max-width: 767px){
+    .clients{
+        width: calc(100% - 60px);
+        padding: 50px 30px;
+    }
+}
+
+@media(max-width: 593px){
+    .clients-card div:nth-child(4){
+        display: none;
+    }
 }
 /*-----clients------*/
