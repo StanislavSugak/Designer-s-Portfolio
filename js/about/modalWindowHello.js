@@ -1,23 +1,24 @@
-const modal = document.querySelector('.modal');
-const talkBtn = document.querySelector('.button-hello');
-const closerBtn = document.querySelector('.closer');
+const hsection = document.querySelector('.hello');
+const hmodal = hsection.querySelector('.modal');
+const htalkBtn = document.querySelector('.button-hello');
+const hcloserBtn = hsection.querySelector('.closer');
 
-const body = document.querySelector('body');
+const hbody = document.querySelector('body');
 
-talkBtn.addEventListener('click', () => {
-    modal.classList.toggle('show');
+htalkBtn.addEventListener('click', () => {
+    hmodal.classList.toggle('show');
     disableScroll();
 });
 
-closerBtn.addEventListener('click', () => {
-    modal.classList.toggle('show');
+hcloserBtn.addEventListener('click', () => {
+    hmodal.classList.toggle('show');
     enableScroll();
 });
 
 function disableScroll() {
-    body.style.overflow = 'hidden';
+    hbody.style.overflow = 'hidden';
 }
 
 function enableScroll() {
-    body.style.overflow = '';
+    hbody.style.overflow = '';
 }
