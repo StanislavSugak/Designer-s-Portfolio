@@ -195,7 +195,7 @@
     height: 160px;
     width: 100%;
     display: flex;
-    flex-wrap: 1;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -203,18 +203,19 @@
 .portfolio-main-text-box{
     display: flex;
     flex-direction: column;
+    min-width: 205px;
+    margin-right: 50px;
 }
 
 .portfolio-main-text-box > p:nth-child(1){
     color: #8643DC;
     letter-spacing: 1px;
-    margin-top: 4px;
 }
 
 .portfolio-main-text-box > p:nth-child(3){
     color: var(--main-black);
-    margin-bottom: 13px;
     max-width: 205px;
+    margin-bottom: 13px;
     letter-spacing: 1.2px;
     line-height: 48px;
 }
@@ -230,6 +231,7 @@
     display: flex;
     height: fit-content;
     width: 170px;
+    min-width: 170px;
     align-items: center;
     justify-content: space-between;
 }
