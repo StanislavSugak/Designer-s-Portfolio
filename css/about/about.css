@@ -333,8 +333,8 @@
 }
 
 .clients-content-card{
-    height: 170px;
-    width: 170px;
+    height: 168px;
+    width: 168px;
     border-radius: 20px;
     background-color: #FFF6FA;
     border: 1px solid #FFE7F0;
@@ -434,7 +434,7 @@
 }
 
 .testimonials-content > div:nth-child(1){
-    grid-row: 6 / span 6;
+    grid-row: 7 / span 6;
     grid-column: 52 / span 6;
 }
 
@@ -544,6 +544,7 @@
 }
 
 @media(max-width: 1019px){
+
     .testimonials-content > img:nth-of-type(1){
         display: none;
     }
