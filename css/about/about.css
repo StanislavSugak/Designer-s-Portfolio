@@ -569,15 +569,15 @@
     }
 
     .testimonials-content > div:nth-child(1){
-        grid-row: 8 / span 6;
-        grid-column: 46 / span 6;
+        grid-row: 12 / span 6;
+        grid-column: 45 / span 6;
     }    
 
     .testimonials-content > p{
         height: 220px;
         width: 260px;
         margin: -5px 0;
-        grid-row: 25 / span 20;
+        grid-row: 26 / span 20;
         grid-column: 27 / span 56;
     }
 
@@ -591,7 +591,17 @@
 
     .testimonials-content > img:nth-of-type(5){
         grid-row: 61 / span 20;
-        grid-column: 44/ span 10;
+        grid-column: 43                                                                                                                                                                                                                                                                                                                                                                                                                                                                        v                                                                  v                                                                                                                                                                                                                                                                                                                                          v                                            v                                                                                                                                                                                                       v                                                                                                                                                                v                                                                                                                                               v                                                                                                  / span 10;
+    }
+
+    .testimonials-content div:nth-of-type(2){
+        grid-row: 88 / span 12;
+        grid-column: 42 / span 12;
+    }
+    
+    .testimonials-content div:nth-of-type(3){
+        grid-row: 105 / span 4;
+        grid-column: 43 / span 24;
     }
 }
 
