@@ -561,4 +561,37 @@
     }
 }
 
+@media(max-width: 767px){
+    .testimonials{
+        width: calc(100% - 60px);
+        padding: 50px 30px;
+    }
+
+    .testimonials-content > div:nth-child(1){
+        grid-row: 8 / span 6;
+        grid-column: 46 / span 6;
+    }    
+
+    .testimonials-content > p{
+        height: 220px;
+        width: 260px;
+        margin: -5px 0;
+        grid-row: 25 / span 20;
+        grid-column: 27 / span 56;
+    }
+
+    .testimonials-content > img:nth-of-type(3){
+        display: none;
+    }
+    
+    .testimonials-content > img:nth-of-type(4){
+        display: none;
+    }
+
+    .testimonials-content > img:nth-of-type(5){
+        grid-row: 61 / span 20;
+        grid-column: 44/ span 10;
+    }
+}
+
 /*-----testimonials-----*/
