@@ -84,12 +84,16 @@
 
 @media(max-width: 767px){
     .hello{
-        width: 100%;
-        padding: 30px 0;
+        width: calc(100% - 20px);
+        padding: 30px 10px;
     }
 
     .hello-container img{
         height: 360px;
+        width: 300px;
+    }
+
+    .text-container{
         width: 300px;
     }
 
@@ -560,6 +564,11 @@
     .testimonials-content img:nth-of-type(4){
         grid-column: 73 / span 7;
     }
+
+    .testimonials-content div:nth-of-type(3){
+        grid-row: 106 / span 4;
+        grid-column: 43 / span 24;
+    }
 }
 
 @media(max-width: 767px){
@@ -568,17 +577,21 @@
         padding: 50px 30px;
     }
 
+    .testimonials-content{
+        height: 595px;
+    }
+
     .testimonials-content > div:nth-child(1){
-        grid-row: 12 / span 6;
-        grid-column: 45 / span 6;
+        grid-row: 6 / span 6;
+        grid-column: 51 / span 6;
     }    
 
     .testimonials-content > p{
         height: 220px;
         width: 260px;
         margin: -5px 0;
-        grid-row: 26 / span 20;
-        grid-column: 27 / span 56;
+        grid-row: 17 / span 44;
+        grid-column: 41 / span 26;
     }
 
     .testimonials-content > img:nth-of-type(3){
@@ -590,18 +603,18 @@
     }
 
     .testimonials-content > img:nth-of-type(5){
-        grid-row: 61 / span 20;
-        grid-column: 43                                                                                                                                                                                                                                                                                                                                                                                                                                                                        v                                                                  v                                                                                                                                                                                                                                                                                                                                          v                                            v                                                                                                                                                                                                       v                                                                                                                                                                v                                                                                                                                               v                                                                                                  / span 10;
+        grid-row: 65 / span 20;
+        grid-column: 49 / span 10;                                                                                                                                                                                                                                                                                                                                                                                                                                                                     v                                                                  v                                                                                                                                                                                                                                                                                                                                          v                                            v                                                                                                                                                                                                       v                                                                                                                                                                v                                                                                                                                               v                                                                                                  / span 10;
     }
 
     .testimonials-content div:nth-of-type(2){
-        grid-row: 88 / span 12;
-        grid-column: 42 / span 12;
+        grid-row: 86 / span 12;
+        grid-column: 48 / span 12;
     }
     
     .testimonials-content div:nth-of-type(3){
         grid-row: 105 / span 4;
-        grid-column: 43 / span 24;
+        grid-column: 42 / span 24;
     }
 }
 
