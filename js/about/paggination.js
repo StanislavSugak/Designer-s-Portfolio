@@ -1,3 +1,31 @@
+const people = [
+  {
+    src: "../images/about/person1.png",
+    p1: "Michal John",
+    p2: "CEO of MZP"
+  },
+  {
+    src: "../images/about/person2.png",
+    p1: "Sarahh Lily",
+    p2: "CMO of GHI"
+  },
+  {
+    src: "../images/about/person3.png",
+    p1: "Peters Mark",
+    p2: "CRO of WXY"
+  },
+  {
+    src: "../images/about/person4.png",
+    p1: "Kevin Owens",
+    p2: "CIO of JKL"
+  },
+  {
+    src: "../images/about/person5.png",
+    p1: "Daniel Luke",
+    p2: "COO of DEF"
+  }
+];
+
 let activep = 0;
 
 const paggination = document.querySelector('.slider-paggination');
@@ -40,14 +68,3 @@ function slideright(){
 
     active(activep);
 }
-
-
-  fetch('testimonials.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Ой, ошибка в fetch: ' + response.statusText);
-    }
-    return response.json();
-  })
-  .then(jsonData => console.log(jsonData))
-  .catch(error => console.error('Ошибка при исполнении запроса: ', error));
