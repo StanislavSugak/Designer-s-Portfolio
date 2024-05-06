@@ -519,6 +519,7 @@
 
 .slider-paggination > p{
     cursor: pointer;
+    user-select: none;
 }
 
 .paggination{
