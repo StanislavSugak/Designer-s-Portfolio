@@ -51,10 +51,87 @@ footer{
 }
 
 .footer-field{
+    position: relative;
     height: 355px;
     width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-field > div{
+    position: relative;
+    width: 100%;
+    height: 45px;
+}
+
+.footer-field > div:nth-child(2){
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin: 45px 0;
+}
+
+.text-field__input{
+    padding: 0 0 10px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #DAD2E3;
+    appearance: none;
+    width: 100%;
+    transition: border-color 1s ease-out;
+    color: var(--main-black);
+}
+
+.text-field__input:focus{
+    border-color: var(--main-black);
+}
+
+.footer-field__placeholder{
+    width: 100%;
+    height: fit-content;
+    background: none;
+    border-radius: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    pointer-events: none;
+    transition: all 0.5s;
+    padding-bottom: 21px;
+    color: #A8A0B0;
+}
+
+.text-field__input:focus + .footer-field__placeholder{
+    top: -10px;
+    transform: scale(0.5), translateX(0);
+}
+
+.footer-lower-content{
+    margin: 30px 0 40px 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-button{
+    width: 200px;
+    height: 60px;
+    background-color: #8643DC;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.footer-lower-element{
+    height: 30px;
+    width: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-link{
@@ -69,6 +146,7 @@ footer{
 .footer-link > p:first-child{
     color: var(--main-black);
     line-height: 48px;
+    letter-spacing: 0.8px;
 }
 
 .footer-link-items{
@@ -131,5 +209,9 @@ footer{
 
     .footer-text{
         min-width: 0;
+    }
+
+    .footer-lower-element{
+        width: 50px;
     }
 }
