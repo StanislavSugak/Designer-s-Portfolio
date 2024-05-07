@@ -8,7 +8,6 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    background-color: var(--main-white);
     gap: 50px;
 }
 
@@ -33,7 +32,6 @@ footer{
 }
 
 .footer-text > p:nth-child(3){
-    color: var(--main-black);
     max-width: 511px;
     letter-spacing: 0.25px;
     line-height: 52px;
@@ -80,15 +78,10 @@ footer{
     appearance: none;
     width: 100%;
     transition: border-color 1s ease-out;
-    color: var(--main-black);
 }
 
 .text-field__input:nth-child(1){
     padding-bottom: 14px;
-}
-
-.text-field__input:focus{
-    border-color: var(--main-black);
 }
 
 .footer-field__placeholder{
@@ -148,7 +141,6 @@ footer{
 }
 
 .footer-link > p:first-child{
-    color: var(--main-black);
     line-height: 48px;
     letter-spacing: 0.8px;
 }

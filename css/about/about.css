@@ -27,12 +27,7 @@
     margin: 120px 0 10px 0;
 }
 
-.text-container > p:nth-of-type(2){
-    color: var(--main-black);
-}
-
 .text-container > p:nth-of-type(3){
-    color: var(--main-black);
     margin: 20px 0 51px 0;
 }
 
@@ -222,7 +217,6 @@
 }
 
 .portfolio-main-text-box > p:nth-child(3){
-    color: var(--main-black);
     max-width: 225px;
     margin-bottom: 13px;
     letter-spacing: 1.2px;
@@ -248,9 +242,8 @@
 }
 
 .portfolio-explore p:first-child{
-    color: var(--main-black);
     font-weight: 600;
-    border-bottom: 1px solid var(--main-black);
+    border-bottom: 1px solid;
     padding-bottom: 1px;
 }
 
@@ -325,7 +318,6 @@
 }
 
 .clients-text > p:nth-child(3){
-    color: var(--main-black);
     max-width: 205px;
     letter-spacing: 1.2px;
     line-height: 48px;
@@ -413,7 +405,6 @@
 }
 
 .testimonials-text > p:nth-child(3){
-    color: var(--main-black);
     max-width: 230px;
     letter-spacing: 1.2px;
     line-height: 48px;
@@ -503,10 +494,6 @@
     align-items: center;
 }
 
-.main-text-content p{
-    color: var(--main-black);
-}
-
 .main-text-content p:first-child{
     font-weight: 800;
     margin-top: 5px;
@@ -553,7 +540,6 @@
 .slider-paggination p{
     width: 20px;
     text-align: center;
-    color: var(--main-black);
     font-weight: 900;
 }
 
@@ -659,7 +645,6 @@
 }
 
 .address-text > p:nth-child(3){
-    color: var(--main-black);
     max-width: 230px;
     letter-spacing: 1.2px;
     line-height: 48px;
