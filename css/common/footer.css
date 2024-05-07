@@ -103,7 +103,8 @@ footer{
     color: #A8A0B0;
 }
 
-.text-field__input:focus + .footer-field__placeholder{
+.text-field__input:focus + .footer-field__placeholder,
+.text-field__input:not(:focus):valid + .footer-field__placeholder{
     top: -10px;
     transform: scale(0.5), translateX(0);
 }
