@@ -2,7 +2,7 @@ var people = [
   {
     src: "../images/about/person1.png",
     p1: "Daniel Luke",
-    p2: "CEO of MZP"
+    p2: "COO of DEF"
   },
   {
     src: "../images/about/person2.png",
@@ -22,7 +22,7 @@ var people = [
   {
     src: "../images/about/person5.png",
     p1: "Michal John",
-    p2: "COO of DEF"
+    p2: "CEO of MZP"
   }
 ];
 
