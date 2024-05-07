@@ -1,10 +1,10 @@
 const langArr = {
    "about":{
-        "ru": "Обо мне",
+        "ru": "О себе",
         "en": "About",
    },
    "services":{
-        "ru": "Сервисы",
+        "ru": "Сервис",
         "en": "Services",
     },
     "works":{
@@ -16,11 +16,11 @@ const langArr = {
         "en": "Blog",
     },
     "about1":{
-        "ru": "Обо мне",
+        "ru": "О себе",
         "en": "About",
    },
    "services1":{
-        "ru": "Сервисы",
+        "ru": "Сервис",
         "en": "Services",
     },
     "works1":{
@@ -60,127 +60,107 @@ const langArr = {
         "en": "Theme",
     },
     "hello":{
-        "ru": "dg",
+        "ru": "Привет,",
         "en": "Hello,",
     },
     "adam":{
-        "ru": "dg",
+        "ru": "Адам Закоб",
         "en": "Adam Zakob",
     },
     "freelance":{
-        "ru": "dg",
+        "ru": "внештатный UX-дизайнер",
         "en": "a freelance UX Designer",
     },
     "talk":{
-        "ru": "dg",
+        "ru": "Поговорим?",
         "en": "Let&#39s Talk",
     },
     "happiness":{
-        "ru": "dg",
+        "ru": "Блаженство",
         "en": "Happiness",
     },
     "take-a-look":{
-        "ru": "dg",
+        "ru": "Загляните на сайт, а затем внизу вы сможете пообщаться со мной поближе",
         "en": "Take a look at the site, and then at the bottom you can chat with me closer",
     },
     "portfolio":{
-        "ru": "dg",
+        "ru": "Портфолио",
         "en": "Portfolio",
     },
     "all-creative":{
-        "ru": "dg",
+        "ru": "Все лучшие проекты",
         "en": "All Creative Projects",
     },
     "explore":{
-        "ru": "dg",
+        "ru": "Больше",
         "en": "Explore More",
     },
     "oops":{
-        "ru": "dg",
+        "ru": "Упсс",
         "en": "Oops",
     },
     "there-are-no-more":{
-        "ru": "dg",
+        "ru": "На этой странице пока больше нет работ, но вы можете найти больше в моих социальных сетях",
         "en": "There are no more works on this page yet, but you can find more on my social networks",
     },
     "my-instagram":{
-        "ru": "dg",
+        "ru": "Мой инстаграм",
         "en": "My instagram",
     },
     "clients":{
-        "ru": "dg",
+        "ru": "Клиенты",
         "en": "Clients",
     },
     "big-deal":{
-        "ru": "dg",
+        "ru": "Проекты вместе с",
         "en": "Big Deal With",
     },
-    "slack":{
-        "ru": "dg",
-        "en": "Slack",
-    },
-    "medium":{
-        "ru": "dg",
-        "en": "Medium",
-    },
-    "microsoft":{
-        "ru": "dg",
-        "en": "Microsoft",
-    },
-    "zeplin":{
-        "ru": "dg",
-        "en": "Zeplin",
-    },
-    "shopify":{
-        "ru": "dg",
-        "en": "Shopify",
-    },
     "testimonials":{
-        "ru": "dg",
+        "ru": "Рекомендации",
         "en": "Testimonials",
     },
     "what-people":{
-        "ru": "dg",
+        "ru": "Что говорят люди",
         "en": "What People Says",
     },
     "quote-testimonials":{
-        "ru": "dg",
+        "ru": "Цитируйте отзывы, демонстрирующие поддержку вашего продукта или функции пользователем, знающие это. Это будет лучше некоторых методов рекламы, поскольку потребители будут доверять вам.",
         "en": "Quote testimonials demonstrate support for your product or feature from a user who has experience with it. This can be significantly more effective than traditional advertising methods as most consumers will trust.",
     },
     "address":{
-        "ru": "dg",
+        "ru": "Адрес",
         "en": "Address",
     },
     "where-you":{
-        "ru": "dg",
+        "ru": "Где найдете вы меня",
         "en": "Where you'll find me",
     },
     "contact-me":{
-        "ru": "dg",
+        "ru": "Свяжитесь со мной",
         "en": "Contact Me",
     },
     "let-me":{
-        "ru": "dg",
+        "ru": "Дайте мне знать, если захотите узнать о совместном проекте. Я готов работать фрилансером.",
         "en": "Let me know if you want to talk about a potential collaboration. I'm available for freelance work.",
     },
     "your-name":{
-        "ru": "dg",
+        "ru": "Как тебя зовут?",
         "en": "What's your name?",
     },
     "your-email":{
-        "ru": "dg",
+        "ru": "Ваш электронный адрес?",
         "en": "Your email?",
     },
     "your-project":{
-        "ru": "dg",
+        "ru": "Расскажите мне о проекте",
         "en": "Tell me about your project",
     },
     "get-quote":{
-        "ru": "dg",
+        "ru": "Мое предложение",
         "en": "Get a Quote",
     },
     "friends":{
-        "ru": "dg",
+        "ru": "Давай дружить",
         "en": "Let's be Friends",
     },
 }

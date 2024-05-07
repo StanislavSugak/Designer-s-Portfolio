@@ -223,7 +223,7 @@
 
 .portfolio-main-text-box > p:nth-child(3){
     color: var(--main-black);
-    max-width: 205px;
+    max-width: 225px;
     margin-bottom: 13px;
     letter-spacing: 1.2px;
     line-height: 48px;
@@ -239,16 +239,17 @@
 .portfolio-explore{
     display: flex;
     height: fit-content;
-    width: 170px;
+    width: fit-content;
     min-width: 170px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 9px;
     cursor: pointer;
 }
 
 .portfolio-explore p:first-child{
     color: var(--main-black);
-    font-weight: 800;
+    font-weight: 600;
     border-bottom: 1px solid var(--main-black);
     padding-bottom: 1px;
 }
