@@ -239,7 +239,7 @@
 .portfolio-explore{
     display: flex;
     height: fit-content;
-    width: fit-content;
+    width: 170px;
     min-width: 170px;
     align-items: center;
     justify-content: flex-end;
@@ -282,6 +282,12 @@
     .portfolio-card img{
         height: 180px;
         width: 240px;
+    }
+}
+
+@media(max-width: 454px){
+    .portfolio-explore{
+        justify-content: flex-start;
     }
 }
 
