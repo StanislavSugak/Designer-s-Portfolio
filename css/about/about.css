@@ -219,7 +219,6 @@
 
 .portfolio-main-text-box > p:nth-child(1){
     color: #8643DC;
-    letter-spacing: 1px;
 }
 
 .portfolio-main-text-box > p:nth-child(3){
@@ -316,7 +315,6 @@
 
 .clients-text > p:nth-child(1){
     color: #8643DC;
-    letter-spacing: 1px;
 }
 
 .clients-text > p:nth-child(3){
@@ -405,7 +403,6 @@
 
 .testimonials-text > p:nth-child(1){
     color: #8643DC;
-    letter-spacing: 1px;
 }
 
 .testimonials-text > p:nth-child(3){
@@ -610,7 +607,7 @@
 
     .testimonials-content > img:nth-of-type(5){
         grid-row: 65 / span 20;
-        grid-column: 49 / span 10;                                                                                                                                                                                                                                                                                                                                                                                                                                                                     v                                                                  v                                                                                                                                                                                                                                                                                                                                          v                                            v                                                                                                                                                                                                       v                                                                                                                                                                v                                                                                                                                               v                                                                                                  / span 10;
+        grid-column: 49 / span 10; 
     }
 
     .testimonials-content div:nth-of-type(2){
@@ -652,7 +649,6 @@
 .address-text > p:nth-child(1){
     margin-top: 1px;
     color: #8643DC;
-    letter-spacing: 1px;
 }
 
 .address-text > p:nth-child(3){
@@ -675,6 +671,11 @@
 }
 
 @media(max-width: 767px){
+
+    .address-text > p:nth-child(1){
+        margin-top: 0px;
+    }
+    
     .address{
         height: fit-content;
         width: calc(100% - 60px);
