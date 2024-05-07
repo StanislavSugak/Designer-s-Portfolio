@@ -184,6 +184,10 @@ header{
     display: none;  
 }
 
+.lng-russian, .lng-english{
+    cursor: pointer;
+}
+
 .active{
     display: flex;
     right: 0;
