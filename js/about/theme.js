@@ -12,9 +12,11 @@ window.addEventListener('DOMContentLoaded', function() {
 checkbox.addEventListener('click', function() {
   if (theme.getAttribute("href") == "../css/about/light.css") {
     theme.href = "../css/about/dark.css";
+    
     localStorage.setItem('selectedTheme', "../css/about/dark.css");
   } else {
     theme.href = "../css/about/light.css";
+
     localStorage.setItem('selectedTheme', "../css/about/light.css");
   }
 });
