@@ -74,10 +74,30 @@
                     <div class="btn-line"></div>
                 </div>
                 <div class="sign-up-content">
-                    <form>
-                        <input class="name__input" type="text" required>
-                        <label class="text-RedHat16 name__placeholder">What's your name?</label>
-                        <label class="text-RedHat10 name__error">The field should not be empty or the number of characters should be from 2 to 20</label>
+                    <form id="name">
+                        <input class="input" type="text" required>
+                        <label class="text-RedHat16 input__placeholder">What's your name?</label>
+                        <label class="text-RedHat10 input__error">The field should not be empty or the number of characters should be from 2 to 20</label>
+                    </form>
+                    <form id="surname">
+                        <input class="input" type="text" required>
+                        <label class="text-RedHat16 input__placeholder">What's your surname?</label>
+                        <label class="text-RedHat10 input__error">The field should not be empty or the number of characters should be from 2 to 20</label>
+                    </form>
+                    <form id="patronymic">
+                        <input class="input" type="text" required>
+                        <label class="text-RedHat16 input__placeholder">What's your patronymic?</label>
+                        <label class="text-RedHat10 input__error active-nothing">This field is optional</label>
+                    </form>
+                    <form id="phone">
+                        <input class="input" type="text" required>
+                        <label class="text-RedHat16 input__placeholder">What's your phone?</label>
+                        <label class="text-RedHat10 input__error">The field should not be empty. Only on the phone of Belarus! 375 or 80 (+9 number)</label>
+                    </form>
+                    <form id="email">
+                        <input class="input" type="text" required>
+                        <label class="text-RedHat16 input__placeholder">What's your email?</label>
+                        <label class="text-RedHat10 input__error">The field should not be empty. Invalid mail!</label>
                     </form>
                 </div>
                 <div class="lower-btn">
@@ -142,4 +162,8 @@
 </body>
     <script src="../js/common/burgerMenu.js"></script>
     <script src="../js/common/dropdown.js"></script>
+    <script src="../js/signup-in/checkname.js"></script>
+    <script src="../js/signup-in/checksurname.js"></script>
+    <script src="../js/signup-in/checkphone.js"></script>
+    <script src="../js/signup-in/checkemail.js"></script>
 </html>
