@@ -99,6 +99,24 @@
                         <label class="text-RedHat16 input__placeholder">What's your email?</label>
                         <label class="text-RedHat10 input__error">The field should not be empty. Invalid mail!</label>
                     </form>
+                    <form id="nickname" novalidate>
+                        <input class="input" type="text" required maxlength="20">
+                        <label class="text-RedHat16 input__placeholder">What's your nickname?</label>
+                        <label class="text-RedHat10 input__error">The field should not be empty. Characters 2-20!</label>
+                        <button class="text-RedHat10 button-auto">auto generation</button>
+                    </form>
+                    <form id="password" autocomplete="off" novalidate required>
+                        <input class="input" type="text" required maxlength="20">
+                        <label class="text-RedHat16 input__placeholder">What's your password?</label>
+                        <label class="text-RedHat10 input__error">The field should not be empty. It must contain one: uppercase and uppercase letter, number and symbol. Characters 8-20</label>
+                        <button class="text-RedHat10 button-auto">auto generation</button>
+                        <img src="../images/signup-in/eyes.png" class="show-password" alt="failed">
+                    </form>
+                    <form id="passwordRepead" maxlength="20" autocomplete="off" novalidate required>
+                        <input class="input" type="text" required maxlength="20">
+                        <label class="text-RedHat16 input__placeholder">Repeat your password</label>
+                        <label class="text-RedHat10 input__error">Passwords must match</label>
+                    </form>
                 </div>
                 <div class="lower-btn">
                     <div class="btn-line"></div>
@@ -166,4 +184,6 @@
     <script src="../js/signup-in/checksurname.js"></script>
     <script src="../js/signup-in/checkphone.js"></script>
     <script src="../js/signup-in/checkemail.js"></script>
+    <script src="../js/signup-in/checknickname.js"></script>
+    <script src="../js/signup-in/checkpassword.js"></script>
 </html>

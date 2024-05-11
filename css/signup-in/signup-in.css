@@ -78,7 +78,7 @@
     border-radius: 0;
     display: block;
     position: absolute;
-    left: 0;
+    left: 15px;
     top: 25px;
     pointer-events: none;
     transition: all 0.5s;
@@ -114,8 +114,30 @@
 
 .input:focus + .input__placeholder,
 .input:not(:focus):valid + .input__placeholder{
-    top: 0px;
-    transform: scale(0.5), translateX(0);
+    left: -20px;
+    top: -28px;
+    transform: scale(0.85) translateX(0);
+}
+
+.button-auto{
+    position: absolute;
+    left: 209px;
+    top: 7px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    color: #25202F;
+    z-index: 20;
+}
+
+.show-password{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 7px;
+    left: 185px;
+    z-index: 21;
 }
 
 .lower-btn{
