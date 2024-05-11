@@ -17,7 +17,7 @@ button_show.addEventListener('click', showpassword);
 
 function removeErrorClass() {
     var inputValue = inputElementPassword.value;
-    console.log(inputValue);
+
     var regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!"#$%&*+,\-()./:;<=>?@[\]^_{|}~])/;
 
     if(regex.test(inputValue) && inputValue.length > 7 && inputValue.length < 21){
@@ -25,12 +25,14 @@ function removeErrorClass() {
     }else{
         labelElementPassword.classList.add('active');
     }
+
+    removeErrorClassMust();
 }
 
 function removeErrorClassMust(){
     var inputValue = inputElementPasswordRepeat.value;
 
-    if(inputValue.value === inputElementPassword.value){
+    if(inputElementPasswordRepeat.value === inputElementPassword.value){
         labelElementPasswordRepeat.classList.remove('active');
     }else{
         labelElementPasswordRepeat.classList.add('active');
@@ -53,9 +55,11 @@ function autonpassword(event) {
     setTimeout(() => {
         inputElementPassword.value = password;
         inputElementPasswordRepeat.value = password;
-        
+
         removeErrorClass();
+        removeErrorClassMust();
     }, 250);
+
 }
 
 function showpassword(event){
