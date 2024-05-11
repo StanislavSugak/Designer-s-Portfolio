@@ -42,8 +42,64 @@
 }
 
 .sign-up-content{
+    margin: 20px 0;
     height: 765px;
     width: 320px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sign-up-content > form{
+    position: relative;
+    height: 65px;
+    width: 280px;
+}
+
+.name__input{
+    position: relative;
+    z-index: 10;
+    background-color: rgb(231,217,248);
+    padding: 0 0 10px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #DAD2E3;
+    appearance: none;
+    width: 100%;
+    transition: border-color 1s ease-out;
+}
+
+.name__placeholder{
+    width: 100%;
+    height: fit-content;
+    background: none;
+    border-radius: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    pointer-events: none;
+    transition: all 0.5s;
+    padding-bottom: 21px;
+    color: #A8A0B0;
+    z-index: 20;
+}
+
+.name__error{
+    width: 100%;
+    height: fit-content;
+    background: none;
+    border-radius: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    pointer-events: none;
+    transition: all 0.5s;
+    padding-bottom: 21px;
+    color: #E41717;
+    z-index: 0;
 }
 
 .lower-btn{
