@@ -31,7 +31,7 @@ function removeErrorClass() {
 
 function removeErrorClassMust(){
     var inputValue = inputElementPasswordRepeat.value;
-
+    
     if(inputElementPasswordRepeat.value === inputElementPassword.value){
         labelElementPasswordRepeat.classList.remove('active');
     }else{
