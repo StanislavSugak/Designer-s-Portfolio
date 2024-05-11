@@ -119,6 +119,31 @@
     transform: scale(0.85) translateX(0);
 }
 
+.birth-line{
+    width: 100%;
+    height: 26px;
+    background-color: rgb(231,217,248);
+    border-bottom: 1px solid #25202F;
+    position: absolute;
+    z-index: 18;
+}
+
+.input__placeholder-block{
+    left: 130px;
+    top: 25px;
+    width: 100%;
+    height: fit-content;
+    background: none;
+    border-radius: 0;
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    transition: all 0.5s;
+    padding-bottom: 21px;
+    color: #25202F;
+    z-index: 20;
+}
+
 .button-auto{
     position: absolute;
     left: 209px;
