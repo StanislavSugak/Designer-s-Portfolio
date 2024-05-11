@@ -121,7 +121,7 @@
 
 .birth-line{
     width: 100%;
-    height: 26px;
+    height: 27px;
     background-color: rgb(231,217,248);
     border-bottom: 1px solid #25202F;
     position: absolute;
@@ -130,7 +130,7 @@
 
 .input__placeholder-block{
     left: 130px;
-    top: 25px;
+    top: 23px;
     width: 100%;
     height: fit-content;
     background: none;
@@ -142,6 +142,28 @@
     padding-bottom: 21px;
     color: #25202F;
     z-index: 20;
+}
+
+.box-birth__input{
+    position: absolute;
+    display: flex;
+    top: -1px;
+    left: 15px;
+    gap: 5px;
+    z-index: 25;
+}
+
+.input__birth{
+    outline: 0;
+    height: 18px;
+    width: 18px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.input__birth:last-child{
+    height: 18px;
+    width: 38px;
 }
 
 .button-auto{
