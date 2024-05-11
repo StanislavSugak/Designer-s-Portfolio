@@ -122,10 +122,16 @@
                         <button class="text-RedHat10 button-auto">auto generation</button>
                         <img src="../images/signup-in/eyes.png" class="show-password" alt="failed">
                     </form>
-                    <form id="passwordRepead" maxlength="20" autocomplete="off" novalidate required>
+                    <form id="passwordRepead" autocomplete="off" novalidate required>
                         <input class="input" type="text" required maxlength="20">
                         <label class="text-RedHat16 input__placeholder">Repeat your password</label>
                         <label class="text-RedHat10 input__error">Passwords must match</label>
+                    </form>
+                    <form id="agree" required>
+                        <div class="birth-line"></div>
+                        <input type="checkbox" class="input__checkbox">
+                        <label class="text-RedHat16 input__placeholder-block">User Agreement</label>
+                        <label class="text-RedHat10 input__error">Check the box that you have read and agree. Required field</label>
                     </form>
                 </div>
                 <div class="lower-btn">
@@ -197,4 +203,5 @@
     <script src="../js/signup-in/checknickname.js"></script>
     <script src="../js/signup-in/checkpassword.js"></script>
     <script src="../js/signup-in/checkbirth.js"></script>
+    <script src="../js/signup-in/checkuseragree.js"></script>
 </html>
