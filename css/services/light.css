@@ -2,7 +2,7 @@ body {
     background-color: #FFFFFF; /*#25202F*/
 }
 
-.dropdown-toggle, .burger-menu p, .footer-text > p:nth-child(3), .footer-link p{
+.dropdown-toggle, .burger-menu p, .text-container p:nth-child(2), .text-container p:nth-child(3), .footer-text > p:nth-child(3), .footer-link p{
     color: #25202F;
 }
 
