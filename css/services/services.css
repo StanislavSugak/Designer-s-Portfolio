@@ -84,16 +84,22 @@
 @media(max-width: 767px){
     .hello{
         width: calc(100% - 20px);
-        padding: 30px 10px;
+        padding: 50px 0px;
+    }
+
+    .hello-container{
+        justify-content: center;
     }
 
     .hello-container img{
+        margin: 30px 0;
         height: 300px;
         width: 300px;
     }
 
     .text-container{
         width: 300px;
+        margin-left: 10px;
     }
 
     .text-container > p:nth-of-type(2){
@@ -241,6 +247,7 @@
 
 .services-lower-box{
     height: fit-content;
+    min-height: 220px;
     min-width: 300px;
     max-width: 300px;
     display: flex;
@@ -288,6 +295,14 @@
 @media(max-width: 969px){
     .services-container-lower{
         flex-direction: column;
+    }
+
+    .services-lower-box:nth-child(1){
+        margin: 0;
+    }
+
+    .services-lower-box:nth-child(2){
+        margin: 0;
     }
 }
 
