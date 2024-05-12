@@ -1,4 +1,5 @@
 var singuporin = document.querySelectorAll('.sign-up-content');
+var singbox = document.querySelector('.sign-up-box'); 
 
 var SignUpInBtnText = document.querySelector('.upper-btn-text');
 var SignUpInBtn = SignUpInBtnText.querySelectorAll('p');
@@ -14,6 +15,7 @@ function addsignup(){
     singuporin[1].classList.add('no-active');
     signBtnUpAll[0].classList.remove('no-active');
     signBtnUpAll[1].classList.add('no-active');
+    singbox.classList.remove('in');
 }
 
 function addsignin(){
@@ -21,4 +23,5 @@ function addsignin(){
     singuporin[1].classList.remove('no-active');
     signBtnUpAll[0].classList.add('no-active');
     signBtnUpAll[1].classList.remove('no-active');
+    singbox.classList.add('in');
 }
