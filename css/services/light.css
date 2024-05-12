@@ -2,7 +2,9 @@ body {
     background-color: #FFFFFF; /*#25202F*/
 }
 
-.dropdown-toggle, .burger-menu p, .text-container p:nth-child(2), .text-container p:nth-child(3), .footer-text > p:nth-child(3), .footer-link p{
+.dropdown-toggle, .burger-menu p, .text-container p:nth-child(2), .text-container p:nth-child(3), 
+.services-lower-box p, 
+.services-text p:nth-child(2), .services-text p:nth-child(3), .footer-text > p:nth-child(3), .footer-link p{
     color: #25202F;
 }
 
@@ -11,7 +13,7 @@ body {
     background-color:#25202F;
 }
 
-.portfolio-explore p:first-child, .text-field__input:focus{
+.portfolio-explore p:first-child,.text-field__input:focus{
     border-color: #25202F;
 }
 
