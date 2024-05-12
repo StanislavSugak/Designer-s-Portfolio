@@ -68,36 +68,36 @@
             <div class="sign-up-box">
                 <div class="upper-btn">
                     <div class="upper-btn-text">
-                        <p class="text-RedHat24">Sign up</p>
-                        <p class="text-RedHat24">Sign in</p>
+                        <p class="text-RedHat24 lng-up">Sign up</p>
+                        <p class="text-RedHat24 lng-in" >Sign in</p>
                     </div>
                     <div class="btn-line"></div>
                 </div>
                 <div class="sign-up-content">
                     <form id="name">
                         <input class="input" type="text" required>
-                        <label class="text-RedHat16 input__placeholder">What's your name?</label>
-                        <label class="text-RedHat10 input__error">The field should not be empty or the number of characters should be from 2 to 20</label>
+                        <label class="text-RedHat16 input__placeholder lng-whtname">What's your name?</label>
+                        <label class="text-RedHat10 input__error lng-whtname-error">The field should not be empty or the number of characters should be from 2 to 20</label>
                     </form>
                     <form id="surname">
                         <input class="input" type="text" required>
-                        <label class="text-RedHat16 input__placeholder">What's your surname?</label>
-                        <label class="text-RedHat10 input__error">The field should not be empty or the number of characters should be from 2 to 20</label>
+                        <label class="text-RedHat16 input__placeholder lng-whtsurname">What's your surname?</label>
+                        <label class="text-RedHat10 input__error lng-whtsurname-error">The field should not be empty or the number of characters should be from 2 to 20</label>
                     </form>
                     <form id="patronymic">
                         <input class="input" type="text" required>
-                        <label class="text-RedHat16 input__placeholder">What's your patronymic?</label>
-                        <label class="text-RedHat10 input__error active-nothing">This field is optional</label>
+                        <label class="text-RedHat16 input__placeholder lng-whtpatronymic">What's your patronymic?</label>
+                        <label class="text-RedHat10 input__error active-nothing lng-whtpatronymic-error">This field is optional</label>
                     </form>
                     <form id="phone">
                         <input class="input" type="text" required>
-                        <label class="text-RedHat16 input__placeholder">What's your phone?</label>
-                        <label class="text-RedHat10 input__error">The field should not be empty. Only on the phone of Belarus! 375 or 80 (+9 number)</label>
+                        <label class="text-RedHat16 input__placeholder lng-whtphone">What's your phone?</label>
+                        <label class="text-RedHat10 input__error lng-whtphone-error">The field should not be empty. Only on the phone of Belarus! 375 or 80 (+9 number)</label>
                     </form>
                     <form id="email">
                         <input class="input" type="text" required>
-                        <label class="text-RedHat16 input__placeholder">What's your email?</label>
-                        <label class="text-RedHat10 input__error">The field should not be empty. Invalid mail!</label>
+                        <label class="text-RedHat16 input__placeholder lng-whtemail">What's your email?</label>
+                        <label class="text-RedHat10 input__error lng-whtemail-error">The field should not be empty. Invalid mail!</label>
                     </form>
                     <form id="birth">
                         <div class="birth-line"></div>
@@ -106,50 +106,50 @@
                             <input type="text" class="input__birth" maxlength="2">
                             <input type="text" class="input__birth" maxlength="4">
                         </div>
-                        <label class="text-RedHat16 input__placeholder-block">day.month.years</label>
-                        <label class="text-RedHat10 input__error">The field should not be empty. You can register only after reaching your 16th birthday!</label>
+                        <label class="text-RedHat16 input__placeholder-block lng-dmy">day.month.years</label>
+                        <label class="text-RedHat10 input__error lng-dmy-error">The field should not be empty. You can register only after reaching your 16th birthday!</label>
                     </form>
                     <form id="nickname" novalidate>
                         <input class="input" type="text" required maxlength="20">
-                        <label class="text-RedHat16 input__placeholder">What's your nickname?</label>
-                        <label class="text-RedHat10 input__error">The field should not be empty. Characters 2-20!</label>
-                        <button class="text-RedHat10 button-auto">auto generation</button>
+                        <label class="text-RedHat16 input__placeholder lng-whtnickname">What's your nickname?</label>
+                        <label class="text-RedHat10 input__error lng-whtnickname-error">The field should not be empty. Characters 2-20!</label>
+                        <button class="text-RedHat10 button-auto lng-random1">auto generation</button>
                     </form>
                     <form id="password" autocomplete="off" novalidate required>
                         <input class="input" type="text" required maxlength="20">
-                        <label class="text-RedHat16 input__placeholder">What's your password?</label>
-                        <label class="text-RedHat10 input__error">The field should not be empty. It must contain one: uppercase and uppercase letter, number and symbol. Characters 8-20</label>
-                        <button class="text-RedHat10 button-auto">auto generation</button>
+                        <label class="text-RedHat16 input__placeholder lng-whtpassword">What's your password?</label>
+                        <label class="text-RedHat10 input__error lng-whtpassword-error">The field should not be empty. It must contain one: uppercase and uppercase letter, number and symbol. Characters 8-20</label>
+                        <button class="text-RedHat10 button-auto lng-random2">auto generation</button>
                         <img src="../images/signup-in/eyes.png" class="show-password" alt="failed">
                     </form>
                     <form id="passwordRepead" autocomplete="off" novalidate required>
                         <input class="input" type="text" required maxlength="20">
-                        <label class="text-RedHat16 input__placeholder">Repeat your password</label>
-                        <label class="text-RedHat10 input__error">Passwords must match</label>
+                        <label class="text-RedHat16 input__placeholder lng-whtpasswordrepeat">Repeat your password</label>
+                        <label class="text-RedHat10 input__error lng-whtpasswordrepeat-error">Passwords must match</label>
                     </form>
                     <form id="agree" required>
                         <div class="birth-line"></div>
                         <input type="checkbox" class="input__checkbox">
-                        <label class="text-RedHat16 input__placeholder-block">User Agreement</label>
-                        <label class="text-RedHat10 input__error">Check the box that you have read and agree. Required field</label>
+                        <label class="text-RedHat16 input__placeholder-block lng-user-agreement">User Agreement</label>
+                        <label class="text-RedHat10 input__error lng-user-agreement-error">Check the box that you have read and agree. Required field</label>
                     </form>
                 </div>
                 <div class="sign-up-content no-active">
                     <form id="nicknameIN" novalidate>
                         <input class="input in" type="text" required maxlength="20">
-                        <label class="text-RedHat16 input__placeholder">What's your nickname?</label>
-                        <label class="text-RedHat10 input__error">There is no such user!</label>
+                        <label class="text-RedHat16 input__placeholder lng-in-whtnickname">What's your nickname?</label>
+                        <label class="text-RedHat10 input__error lng-in-whtnickname-error">There is no such user!</label>
                     </form>
                     <form id="passwordIN" autocomplete="off" novalidate required>
                         <input class="input in" type="password" required maxlength="20">
-                        <label class="text-RedHat16 input__placeholder">What's your password?</label>
-                        <label class="text-RedHat10 input__error">Invalid password!</label>
+                        <label class="text-RedHat16 input__placeholder lng-in-whtpassword">What's your password?</label>
+                        <label class="text-RedHat10 input__error lng-in-whtpassword-error">Invalid password!</label>
                     </form>
                 </div>
                 <div class="lower-btn">
                     <div class="btn-line"></div>
-                    <p class="text-RedHat24">Sign up</p>
-                    <p class="text-RedHat24 no-active">Sign in</p>
+                    <p class="text-RedHat24 lng-up1">Sign up</p>
+                    <p class="text-RedHat24 no-active lng-in1">Sign in</p>
                 </div>
             </div>
         </section>
@@ -220,4 +220,6 @@
     <script src="../js/signup-in/signup.js"></script>
     <script src="../js/signup-in/singuporin.js"></script>
     <script src="../js/signup-in/signin.js"></script>
+    <script src="../js/signup-in/interpreter.js"></script>
+    <script src="../js/signup-in/theme.js"></script>
 </html>
