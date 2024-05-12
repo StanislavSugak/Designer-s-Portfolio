@@ -134,9 +134,22 @@
                         <label class="text-RedHat10 input__error">Check the box that you have read and agree. Required field</label>
                     </form>
                 </div>
+                <div class="sign-up-content no-active">
+                    <form id="nicknameIN" novalidate>
+                        <input class="input" type="text" required maxlength="20">
+                        <label class="text-RedHat16 input__placeholder">What's your nickname?</label>
+                        <label class="text-RedHat10 input__error">There is no such user!</label>
+                    </form>
+                    <form id="passwordIN" autocomplete="off" novalidate required>
+                        <input class="input" type="password" required maxlength="20">
+                        <label class="text-RedHat16 input__placeholder">What's your password?</label>
+                        <label class="text-RedHat10 input__error">Invalid password!</label>
+                    </form>
+                </div>
                 <div class="lower-btn">
                     <div class="btn-line"></div>
                     <p class="text-RedHat24">Sign up</p>
+                    <p class="text-RedHat24 no-active">Sign in</p>
                 </div>
             </div>
         </section>
@@ -205,4 +218,6 @@
     <script src="../js/signup-in/checkbirth.js"></script>
     <script src="../js/signup-in/checkuseragree.js"></script>
     <script src="../js/signup-in/signup.js"></script>
+    <script src="../js/signup-in/singuporin.js"></script>
+    <script src="../js/signup-in/signin.js"></script>
 </html>

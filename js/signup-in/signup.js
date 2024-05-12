@@ -6,7 +6,8 @@ for (let i = 0; i < localStorage.length; i++) {
     console.log(`${key}: ${value}`);
 }
 
-var signBtn = signupCont.querySelector('p');
+var signBtnUpAll = signupCont.querySelectorAll('p');
+var signBtn = signBtnUpAll[0];
 
 signBtn.addEventListener('click', readdata);
 
