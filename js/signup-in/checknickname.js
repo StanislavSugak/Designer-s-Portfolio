@@ -11,7 +11,7 @@ button_nickname.addEventListener('click', autonickname);
 
 function removeErrorClass() {
     var inputValue = inputElementNickname.value;
-    console.log( inputValue);
+    console.log(inputValue);
 
     if (inputValue.length > 20 || inputValue.length < 2 || inputValue.trim() === '' || inputValue.indexOf(' ') !== -1) {
         labelElementNickname.classList.add('active');
@@ -30,10 +30,16 @@ function autonickname(event) {
       var randomIndex = Math.floor(Math.random() * characters.length);
       nickname += characters.charAt(randomIndex);
     }
-  
+
     inputElementNickname.value = ' ';
     setTimeout(() => {
         inputElementNickname.value = nickname;
+
+        if (nickname.length > 20 || nickname.length < 2 || nickname.trim() === '' || nickname.indexOf(' ') !== -1) {
+            labelElementNickname.classList.add('active');
+        }else{
+            labelElementNickname.classList.remove('active');
+        }
     }, 250);
 }
   
