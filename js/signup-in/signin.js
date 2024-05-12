@@ -14,6 +14,8 @@ signBtnIn.addEventListener('click', checkuser);
 const storedData = localStorage.getItem('user');
 user = JSON.parse(storedData);
 
+var id = 0;
+
 function checkuser(){
     var namevalue = inputElementNameIN.value;
     var passwordvalue = inputElementPasswordIN.value;
@@ -34,6 +36,8 @@ function checkuser(){
             bnickname = true;
             if(user[i].password == passwordvalue){
                 bpassword = true;
+                id = i;
+                i = user.length;
             }
             else{
                 bnickname = false;
@@ -43,6 +47,9 @@ function checkuser(){
     }
 
     if(bnickname == true && bpassword == true){
+        var ActiveUser = user[id];
+        const actuser = JSON.stringify(ActiveUser);
+        localStorage.setItem('ActiveUser', actuser);
         location.reload(); 
     }
     else{
