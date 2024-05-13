@@ -458,6 +458,10 @@
     .lower-box-contant:nth-child(2){
         order: 2;
     }
+
+    .offers{
+        padding-bottom: 55px;
+    }
 }
 
 @media(max-width: 900px){
@@ -489,7 +493,15 @@
 
     .lower-box-contant-text{
         margin-left: 40px;
-        margin-bottom: 52px;
+        margin-bottom: 22px;
+    }
+
+    .lower-box-contant-main.tel{
+        margin-bottom: 0;
+    }
+
+    .lower-box-contant.tel{
+        height: 440px;
     }
 
     .lower-box-contant-text p{
