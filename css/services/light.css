@@ -3,7 +3,7 @@ body {
 }
 
 .dropdown-toggle, .burger-menu p, .text-container p:nth-child(2), .text-container p:nth-child(3), 
-.services-lower-box p, .offers-text p,
+.services-lower-box p, .offers-text p, .lower-box-contant-main p, 
 .services-text p:nth-child(2), .services-text p:nth-child(3), .footer-text > p:nth-child(3), .footer-link p{
     color: #25202F;
 }
@@ -31,4 +31,16 @@ body {
 
 .rectangle-menu{
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.lower-box-contant{
+    background: linear-gradient(
+        to bottom,
+        rgb(187, 133, 255, 30%) 0%,
+        rgb(255, 177, 222, 30%) 100%
+    );
+}
+
+.lower-box-contant-text p{
+    color: #47444E;
 }
