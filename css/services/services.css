@@ -441,7 +441,7 @@
     margin: 10px 0;
 }
 
-.lower-box-contant-line:nth-child(2){
+.lower-box-contant-line.two{
     background-color: #8643DC;
 }
 
