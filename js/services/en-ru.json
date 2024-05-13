@@ -1,0 +1,170 @@
+{
+    "about":{
+       "ru":"О себе",
+       "en":"About"
+    },
+    "services":{
+       "ru":"Сервис",
+       "en":"Services"
+    },
+    "works":{
+       "ru":"Работа",
+       "en":"Works"
+    },
+    "blog":{
+       "ru":"Блог",
+       "en":"Blog"
+    },
+    "services1":{
+      "ru":"Сервис",
+      "en":"Services"
+   },
+    "about1":{
+       "ru":"О себе",
+       "en":"About"
+    },
+    "works1":{
+       "ru":"Работа",
+       "en":"Works"
+    },
+    "blog1":{
+       "ru":"Блог",
+       "en":"Blog"
+    },
+    "language":{
+       "ru":"Язык",
+       "en":"Language"
+    },
+    "russian":{
+       "ru":"Русский",
+       "en":"Russia"
+    },
+    "english":{
+       "ru":"Английский",
+       "en":"English"
+    },
+    "authorization":{
+       "ru":"Авторизация",
+       "en":"Authorization"
+    },
+    "sign-up":{
+       "ru":"Вход",
+       "en":"Sign up"
+    },
+    "registration":{
+       "ru":"Регистрация",
+       "en":"Registration"
+    },
+    "theme":{
+       "ru":"Тема",
+       "en":"Theme"
+    },
+    "okay":{
+      "ru":"Окей,",
+      "en":"Okay,"
+    },
+    "just":{
+      "ru":"сделай это",
+      "en":"Just try it"
+    },
+    "time":{
+      "ru":"не откладывай, давай",
+      "en":"no time, get in touch."
+    },
+    "help":{
+      "ru":"Помогу тебе",
+      "en":"I'll help you"
+    },
+    "my-help":{
+      "ru":"Моя помощь",
+      "en":"My Help"
+    },
+    "take-a-look":{
+      "ru":"Загляните на сайт, а затем внизу вы сможете пообщаться со мной поближе.",
+      "en":"Take a look at the site, and then at the bottom you can chat with me closer"
+    },
+    "services-frame":{
+      "ru":"Сервисы",
+      "en":"Services"
+    },
+    "wht-actually":{
+      "ru":"Что я люблю делать",
+      "en":"What actually I love to do"
+    },
+    "UX":{
+      "ru":"UX исследование",
+      "en":"UX Research"
+    },
+    "new-demos1":{
+      "ru":"Постоянно добавляются новые демоверсии, и покупка лицензии для Mak дает вам доступ ко всему, что показано ниже, а также ко всему, что будет добавлено в будущем.",
+      "en":"New demos are continually added and buying a single license for Mak gives you access to all of what's shown below, plus everything that will be added in the future."
+    },
+    "brand":{
+      "ru":"Дизайн",
+      "en":"Brand Design"
+    },
+    "new-demos2":{
+      "ru":"Постоянно добавляются новые демоверсии, и покупка лицензии для Mak дает вам доступ ко всему, что показано ниже, а также ко всему, что будет добавлено в будущем.",
+      "en":"New demos are continually added and buying a single license for Mak gives you access to all of what's shown below, plus everything that will be added in the future."
+    },
+    "webdev":{
+      "ru":"Веб разработчик",
+      "en":"Web Development"
+    },
+    "new-demos3":{
+      "ru":"Постоянно добавляются новые демоверсии, и покупка лицензии для Mak дает вам доступ ко всему, что показано ниже, а также ко всему, что будет добавлено в будущем.",
+      "en":"New demos are continually added and buying a single license for Mak gives you access to all of what's shown below, plus everything that will be added in the future."
+    },
+    "offers":{
+      "ru":"Услуги",
+      "en":"Offers"
+    },
+    "wht-services":{
+      "ru":"Что я могу предложить",
+      "en":"What services do I offer"
+    },
+    "advice":{
+      "ru":"Советы и помощь",
+      "en":"Advice and guidance"
+    },
+    "providing":{
+      "ru":"Предоставление рекомендаций по улучшению опыта компаниям и командам разработчиков. Помощь в определении стратегии, проведении обучения и внедрении методов проектирования.",
+      "en":"Providing advice and guidance on improving user experience for companies and development teams. Help define strategy, lead training, and deliver against design best practices."
+    },
+    "pre-built":{
+      "ru":"Готовые решения",
+      "en":"Pre-built solutions"
+    },
+    "develop":{
+      "ru":"Разрабатывайте интерфейсы, которые хорошо работают на устройствах и экранах. Это включает в себя создание красивых дизайнов будущего сайта и его качественную верстку.",
+      "en":"Develop ready-made interfaces that work well on various devices and screens. This includes creation of beautiful design layouts of the future site and its high-quality layout."
+    },
+    "contact-me":{
+        "ru":"Свяжитесь со мной",
+        "en":"Contact Me"
+     },
+     "let-me":{
+        "ru":"Дайте мне знать, если захотите узнать о совместном проекте. Я готов работать фрилансером.",
+        "en":"Let me know if you want to talk about a potential collaboration. I'm available for freelance work."
+     },
+     "your-name":{
+        "ru":"Как тебя зовут?",
+        "en":"What's your name?"
+     },
+     "your-email":{
+        "ru":"Ваш электронный адрес?",
+        "en":"Your email?"
+     },
+     "your-project":{
+        "ru":"Расскажи, как я могу помочь",
+        "en":"Tell me how I can help"
+     },
+     "get-quote":{
+        "ru":"Мое предложение",
+        "en":"Get a Quote"
+     },
+     "friends":{
+        "ru":"Давай дружить",
+        "en":"Let's be Friends"
+     }
+}
