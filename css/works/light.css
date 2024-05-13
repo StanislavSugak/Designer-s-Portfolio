@@ -2,7 +2,9 @@ body {
     background-color: #FFFFFF; /*#25202F*/
 }
 
-.dropdown-toggle, .burger-menu p, .footer-text > p:nth-child(3), .footer-link p{
+.dropdown-toggle, .burger-menu p, .text-container p:nth-child(2), .text-container p:nth-child(3), 
+.work-text > p:nth-child(3), .work-contant-text p,
+.footer-text > p:nth-child(3), .footer-link p{
     color: #25202F;
 }
 
@@ -28,4 +30,8 @@ body {
 
 .rectangle-menu{
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.work-contant{
+    background-color: #FFF0F7;
 }
