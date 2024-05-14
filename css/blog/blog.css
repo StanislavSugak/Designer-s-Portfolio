@@ -316,3 +316,37 @@
     }
 }
 /*-----blog-----*/
+
+/*-----notes-----*/
+.notes{
+    height: fit-content;
+    padding: 50px 100px;
+    width: calc(100% - 200px);
+
+}
+
+.notes-text{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.notes-text p:nth-child(1){
+    color: #8643DC;
+}
+
+.notes-text p:nth-child(3){
+    line-height: 48px;
+    max-width: 215px;
+    letter-spacing: 1.2px;
+}
+
+.notes-text-line{
+    height: 2px;
+    width: 50px;
+    background-color: #8643DC;
+    margin: 10px 0 15px 0;
+}
+
+/*-----notes-----*/

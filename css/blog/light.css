@@ -4,7 +4,7 @@ body {
 
 .dropdown-toggle, .burger-menu p, .text-RedHat20-active, .hello-container > p:first-child,
 .hello-container > p:nth-child(3), .blog-box-text p:nth-child(3),
-.blog-box-big-image p:nth-child(3),
+.blog-box-big-image p:nth-child(3),.notes-text p:nth-child(3),
 .footer-text > p:nth-child(3), .footer-link p{
     color: #25202F;
 }
