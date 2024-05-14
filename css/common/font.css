@@ -80,6 +80,16 @@
     text-decoration: none;
 }
 
+.text-RedHat30{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 0;
+    text-decoration: none;
+}
+
 .text-RedHat36{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 36px;

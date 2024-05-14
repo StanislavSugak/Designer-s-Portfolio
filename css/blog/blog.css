@@ -322,7 +322,9 @@
     height: fit-content;
     padding: 50px 100px;
     width: calc(100% - 200px);
-
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .notes-text{
@@ -349,4 +351,33 @@
     margin: 10px 0 15px 0;
 }
 
+
+.notes-contant{
+    height: fit-content;
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.notes-contant-item{
+    height: 160px;
+    width: 500px;
+}
+
+.notes-contant-item p:nth-child(1){
+    line-height: 26px;
+    color: #8643DC;
+    letter-spacing: 0.2px;
+}
+
+.notes-contant-item p:nth-child(2){
+    margin: 10px 0 5px 0;
+    letter-spacing: 1.2px;
+}
+
+.notes-contant-item p:nth-child(3){
+    line-height: 32px;
+}
 /*-----notes-----*/
