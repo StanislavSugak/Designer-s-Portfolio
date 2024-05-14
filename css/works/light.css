@@ -3,12 +3,12 @@ body {
 }
 
 .dropdown-toggle, .burger-menu p, .text-container p:nth-child(2), .text-container p:nth-child(3), 
-.work-text > p:nth-child(3), .work-contant-text p,
+.work-text > p:nth-child(3), .work-contant-text p, .process-text p, .process-box-text > p, 
 .footer-text > p:nth-child(3), .footer-link p{
     color: #25202F;
 }
 
-.line-burger-icon, .burger-menu > div{
+.line-burger-icon, .burger-menu > div, .process-box-number > div{
     background-color:#25202F;
 }
 
