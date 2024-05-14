@@ -181,5 +181,138 @@
 .closer-line:last-of-type {
     transform: rotate(-45deg);
 }
-
 /*---modal windows---*/
+
+/*-----blog-----*/
+.blog{
+    padding: 50px 100px;
+    width: calc(100% - 200px);
+    height: fit-content;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-box{
+    height: fit-content;
+    width: fit-content;
+    min-width: 527px;
+    max-width: 527px;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-box:nth-child(2){
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.blog-box-text{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-box-text p:nth-child(1){
+    color: #8643DC;
+}
+
+.blog-box-text p:nth-child(3){
+    line-height: 48px;
+    letter-spacing: 0.6px;
+    max-width: 165px;
+}
+
+.blog-box-text-line{
+    height: 2px;
+    width: 50px;
+    background-color: #8643DC;
+    margin: 10px 0;
+}
+
+.blog-box-big-image{
+    height: 350px;
+}
+
+.blog-box-big-image p:nth-child(2){
+    color: #8643DC;
+    margin: 16px 0 10px 0;
+    line-height: 21px;
+    letter-spacing: 0.3px;
+}
+
+.blog-box-big-image p:nth-child(3){
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.7px;
+}
+
+.blog-box-split{
+    height: 350px;
+    width: 255px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: linear-gradient(
+        to bottom,
+        rgb(196, 196, 196, 0.3) 0%,
+        rgb(37, 42, 47, 0.7) 100%
+    );
+}
+
+.blog-box-split img{
+    position: absolute;
+    z-index: -1;
+}
+
+.blog-box-split p{
+    max-width: 200px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+
+.blog-box-split:nth-child(2) p{
+    max-width: 215px;
+}
+
+.blog-box-split p:nth-child(2){
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+
+.blog-box-split p:nth-child(3){
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 24px;
+    letter-spacing: 0.8px;
+}
+
+@media(max-width: 767px){
+    .blog{
+        padding: 50px 30px;
+        width: calc(100% - 60px);
+    }
+    
+    .blog-box-big-image{
+        display: none;
+    }
+
+    .blog-box{
+        min-width: 0;
+    }
+
+    .blog-box:nth-child(1){
+        width: 100%;
+    }
+}
+
+@media(max-width: 584px){
+    .blog-box:nth-child(2){
+        gap: 30px
+    }
+}
+/*-----blog-----*/
