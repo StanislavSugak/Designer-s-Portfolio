@@ -362,8 +362,8 @@
 }
 
 .notes-contant-item{
-    height: 160px;
-    width: 500px;
+    min-height: 160px;
+    max-width: 500px;
 }
 
 .notes-contant-item p:nth-child(1){
@@ -379,5 +379,35 @@
 
 .notes-contant-item p:nth-child(3){
     line-height: 32px;
+    letter-spacing: 0.86px;
+}
+
+.notes-contant-item:nth-child(1) p:nth-child(3){
+    letter-spacing: 0;
+}
+
+.containers-basic-line-under-text{
+    height: 2px;
+    width: 50px;
+    background-color: #8643DC;
+    margin: 10px 0 15px 0;
+}
+
+@media(max-width: 1279px){
+    .notes{
+        padding-bottom: 45px;
+    }
+}
+
+@media(max-width: 767px){
+    .notes{
+        width: calc(100% - 60px);
+        padding: 50px 30px 45px 30px;
+    }
+
+    .notes-contant-item p:nth-child(2){
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
 }
 /*-----notes-----*/
