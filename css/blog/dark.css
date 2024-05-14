@@ -1,0 +1,41 @@
+body {
+    background-color: #25202F; /*#25202F*/
+}
+
+.dropdown-toggle, .burger-menu p, .text-RedHat20-active, .hello-container > p:first-child,
+.hello-container > p:nth-child(3), .blog-box-text p:nth-child(3),
+.blog-box-big-image p:nth-child(3),.notes-text p:nth-child(3),
+.notes-contant-item p:nth-child(2), 
+.footer-text > p:nth-child(3), .footer-link p{
+    color: #FFFFFF;
+}
+
+.hello-container > p:nth-child(2), .hello-container-list > p,
+.notes-contant-item p:nth-child(3){
+    color: #FFFFFF;
+}
+
+.line-burger-icon, .burger-menu > div, .hello-container-list-line{
+    background-color:#FFFFFF;
+}
+
+
+.text-field__input:focus{
+    border-color: #FFFFFF;
+}
+
+.text-field__input{
+    background: #25202F;
+}
+
+.dropdown-menu, .burger-menu{
+    background: linear-gradient(
+        to bottom,
+        rgb(0, 0, 0) 0%,
+        hsla(0, 0%, 0%, 0.75) 100%
+    );
+}
+
+.rectangle-menu{
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}

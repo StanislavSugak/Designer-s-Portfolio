@@ -1,0 +1,202 @@
+{
+    "about":{
+       "ru":"О себе",
+       "en":"About"
+    },
+    "services":{
+       "ru":"Сервис",
+       "en":"Services"
+    },
+    "works":{
+       "ru":"Работа",
+       "en":"Works"
+    },
+    "blog":{
+       "ru":"Блог",
+       "en":"Blog"
+    },
+    "blog1":{
+      "ru":"Блог",
+      "en":"Blog"
+   },
+   "about1":{
+      "ru":"О себе",
+      "en":"About"
+   },
+    "services1":{
+      "ru":"Сервис",
+      "en":"Services"
+   },
+    "works1":{
+       "ru":"Работа",
+       "en":"Works"
+    },
+    "language":{
+       "ru":"Язык",
+       "en":"Language"
+    },
+    "russian":{
+       "ru":"Русский",
+       "en":"Russia"
+    },
+    "english":{
+       "ru":"Английский",
+       "en":"English"
+    },
+    "authorization":{
+       "ru":"Авторизация",
+       "en":"Authorization"
+    },
+    "sign-up":{
+       "ru":"Вход",
+       "en":"Sign up"
+    },
+    "registration":{
+       "ru":"Регистрация",
+       "en":"Registration"
+    },
+    "theme":{
+       "ru":"Тема",
+       "en":"Theme"
+    },
+    "u-should":{
+      "ru":"Я настаиваю остаться",
+      "en":"You should definitely stay"
+    },
+    "here-u":{
+      "ru":"Здесь ты развиваешься",
+      "en":"Here you can relax and learn"
+    },
+    "u-will":{
+      "ru":"Ты сможешь найти",
+      "en":"You'll be able to find"
+    },
+    "inspiration":{
+      "ru":"Вдохновение",
+      "en":"Inspiration"
+    },
+    "more-ideas":{
+      "ru":"Много идей",
+      "en":"More ideas"
+    },
+    "assistance":{
+      "ru":"Помощь",
+      "en":"Assistance"
+    },
+    "cooperation":{
+      "ru":"Сотрудничество",
+      "en":"Cooperation"
+    },
+    "happiness":{
+      "ru":"Счастье",
+      "en":"Happiness"    
+   },
+    "take-a-look":{
+      "ru":"Загляните на сайт, а затем внизу вы сможете пообщаться со мной поближе",
+      "en":"Take a look at the site, and then at the bottom you can chat with me closer"
+    },
+    "my-blog":{
+      "ru":"Блог",
+      "en":"Blog"
+    },
+    "get-news":{
+      "ru":"Читай новости",
+      "en":"Get News Feeds"
+    },
+    "june1":{
+      "ru":"20 июня/2020",
+      "en":"20 June/2020"
+    },
+    "technology":{
+      "ru":"Технологии развиваются. Появляются новые устройства.",
+      "en":"Technology is evolving rapidly. New devices and applications."
+    },
+    "june2":{
+      "ru":"20 июня/2020",
+      "en":"20 June/2020"
+    },
+    "new-devices":{
+      "ru":"Появляются новые устройства и приложения.",
+      "en":"New devices and applications come to the market."
+    },
+    "june3":{
+      "ru":"20 июня/2020",
+      "en":"20 June/2020"
+    },
+    "every-day":{
+      "ru":"Каждый день решеаем проблемы.",
+      "en":"Every day providing solutions to problems."
+    },
+    "notes":{
+      "ru":"Записи",
+      "en":"Notes"
+    },
+    "as-i-thought":{
+      "ru":"То, о чем размышлял",
+      "en":"As I thought about it"
+    },
+    "ux-designer1":{
+      "ru":"UX-дизайнер · 30 июля 2020",
+      "en":"UX designer · 30 Jule 2020"
+    },
+    "ux-review":{
+      "ru":"Презентации с обзором UX",
+      "en":"UX review presentations"
+    },
+    "how-do":{
+      "ru":"Как вы создаете презентации, которые поражают коллег и дают впечатление на ваших руководителей?",
+      "en":"How do you create compelling presentations that wow you colleagues and impress your managers?"
+    },
+    "ux-designer2":{
+      "ru":"UX-дизайнер · 12 июля 2020",
+      "en":"UX designer · 12 Jule 2020"
+    },
+    "communication1":{
+      "ru":"Навыки общения",
+      "en":"Communication skills"
+    },
+    "i-have-a1":{
+      "ru":"У меня большой опыт общения с разными людьми, действительно ли разговор так важен?",
+      "en":"I have a lot of experience in communicating with different people, is talking really that important?"
+    },
+    "ux-designer3":{
+      "ru":"UX-дизайнер · 12 июля 2020",
+      "en":"UX designer · 12 Jule 2020"
+    },
+    "communication2":{
+      "ru":"Навыки общения",
+      "en":"Communication skills"
+    },
+    "i-have-a2":{
+      "ru":"У меня большой опыт общения с разными людьми, действительно ли разговор так важен?",
+      "en":"I have a lot of experience in communicating with different people, is talking really that important?"
+    },
+    "contact-me":{
+        "ru":"Свяжитесь со мной",
+        "en":"Contact Me"
+     },
+     "let-me":{
+        "ru":"Дайте мне знать, если вы захотите приобрести или заказать мои услуги. Я готов работать фрилансером.",
+        "en":"Let me know if you want to purchase or order my services. I'm available for freelance work."
+     },
+     "your-name":{
+        "ru":"Как тебя зовут?",
+        "en":"What's your name?"
+     },
+     "your-email":{
+        "ru":"Ваш электронный адрес?",
+        "en":"Your email?"
+     },
+     "your-project":{
+        "ru":"Расскажи, как я могу помочь",
+        "en":"Tell me how I can help"
+     },
+     "get-quote":{
+        "ru":"Мое предложение",
+        "en":"Get a Quote"
+     },
+     "friends":{
+        "ru":"Давай дружить",
+        "en":"Let's be Friends"
+     }
+}
