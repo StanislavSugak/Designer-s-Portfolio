@@ -1,0 +1,234 @@
+{
+    "about":{
+       "ru":"О себе",
+       "en":"About"
+    },
+    "services":{
+       "ru":"Сервис",
+       "en":"Services"
+    },
+    "works":{
+       "ru":"Работа",
+       "en":"Works"
+    },
+    "blog":{
+       "ru":"Блог",
+       "en":"Blog"
+    },
+   "works1":{
+      "ru":"Работа",
+      "en":"Works"
+   },
+    "about1":{
+       "ru":"О себе",
+       "en":"About"
+    },
+    "services1":{
+      "ru":"Сервис",
+      "en":"Services"
+   },
+    "blog1":{
+       "ru":"Блог",
+       "en":"Blog"
+    },
+    "language":{
+       "ru":"Язык",
+       "en":"Language"
+    },
+    "russian":{
+       "ru":"Русский",
+       "en":"Russia"
+    },
+   "english":{
+      "ru":"Английский",
+      "en":"English"
+    },
+   "authorization":{
+      "ru":"Авторизация",
+      "en":"Authorization"
+    },
+   "sign-up":{
+      "ru":"Вход",
+      "en":"Sign up"
+    },
+   "registration":{
+       "ru":"Регистрация",
+       "en":"Registration"
+    },
+   "theme":{
+      "ru":"Тема",
+      "en":"Theme"
+    },
+   "join":{
+      "ru":"присоединяйся",
+      "en":"Join in,"
+   },
+   "try-it":{
+      "ru":"Попробуй",
+      "en":"Try it out"
+   },
+   "develop":{
+      "ru":"развивайся вместе с нами",
+      "en":"develop and learn with us"
+   },
+   "stay-with":{
+      "ru":"Оставайся",
+      "en":"Stay with us"
+   },
+   "happiness":{
+      "ru":"Счастье",
+      "en":"Happiness"
+   },
+   "take-a-look":{
+      "ru":"Загляните на сайт, а затем внизу вы сможете пообщаться со мной поближе",
+      "en":"Take a look at the site, and then at the bottom you can chat with me closer"
+   },
+   "sworks":{
+      "ru":"Работа",
+      "en":"Work"
+   },
+   "wht-kind":{
+      "ru":"Часть моих услуг",
+      "en":"What kind of work I offer"
+   },
+   "coursework":{
+      "ru":"Курсовая",
+      "en":"Coursework"
+   },
+   "help-u":{
+      "ru":"Помогу написать курсовую",
+      "en":"Help you write a term paper"
+   },
+   "website":{
+      "ru":"Вебсайт",
+      "en":"Website"
+   },
+   "creating":{
+      "ru":"Создаю крутые вебсайты",
+      "en":"Creating an adaptive website"
+   },
+   "application":{
+      "ru":"Приложения",
+      "en":"Application"
+   },
+   "creating-app":{
+      "ru":"Создаю приложения",
+      "en":"Creating an application"
+   },
+   "process":{
+      "ru":"Процесс",
+      "en":"Process"
+   },
+   "wht-kind2":{
+      "ru":"Часть моих услуг",
+      "en":"What kind of work I offer"
+   },
+   "idea":{
+      "ru":"Идея",
+      "en":"Idea"
+   },
+   "finding":{
+      "ru":"Поиск и создание идей для проекта. Оценивайте затраченные ресурсы и время. Только перспективные проекты, которые есть в наличии.",
+      "en":"Finding and creating ideas for the project. Evaluate the resources and time spent. Only interesting and promising projects, which are in the."
+   },
+   "development":{
+      "ru":"Разработчик",
+      "en":"Development"
+   },
+   "planning":{
+      "ru":"Планирование работы: основные этапы. Планирование дизайна и архитектуры. Разработка контента, реализация дизайна и т.д.",
+      "en":"Planning the work: timing, basic steps. Design and architecture planning. Actual content development, programming, design implementation, etc."
+   },
+   "completion":{
+      "ru":"Завершение",
+      "en":"Completion"
+   },
+   "test-the":{
+      "ru":"Протестируйте продукт на качество и соответствие требованиям. Выявите ошибки. Анализ тестирования и дальнейшая оптимизация.",
+      "en":"Test the finished product for quality and compliance to requirements. Identify bugs and errors. Analysis of test results and further optimization."
+   },
+   "courses":{
+      "ru":"Курсы",
+      "en":"Courses"
+   },
+   "wht-courses":{
+      "ru":"Какие курсы тебе нужны",
+      "en":"What courses do you need"
+   },
+   "designer":{
+      "ru":"Дизайнер",
+      "en":"Designer"
+   },
+   "the-skills":{
+      "ru":"Навыки и знания, необходимые для начала карьеры дизайнера.",
+      "en":"The skills and knowledge to launch a successful design career."
+   },
+   "programmer":{
+      "ru":"Программист",
+      "en":"Programmer"
+   },
+   "i-will":{
+      "ru":"Я помогу овладеть уверенными знаниями ООП языков: C++, C#.",
+      "en":"I will help to master confident knowledge of object-oriented languages: C++, C#."
+   },
+   "back-end":{
+      "ru":"Бэкенд",
+      "en":"Back-end"
+   },
+   "i-help-to":{
+      "ru":"Я помогаю разобраться в различных составляющих.",
+      "en":"I help to understand the hardware and software component."
+   },
+   "front-end":{
+      "ru":"Фронтенд",
+      "en":"Front-end"
+   },
+   "i-help-with":{
+      "ru":"Я помогаю с видимой частью, например,та часть, которую вы видите сейчас.",
+      "en":"I help with the layout, the visible part, for example, the part you see now."
+   },
+   "full-stack":{
+      "ru":"Фулл стек",
+      "en":"Full stack"
+   },
+   "create-large":{
+      "ru":"Создавайте большие проекты самостоятельно как бэк, так и фронт",
+      "en":"Create large projects on your own, both the front-end and back-end."
+   },
+   "animator":{
+      "ru":"Аниматор",
+      "en":"Animator"
+   },
+   "create-quality":{
+      "ru":"Создавайте анимацию, рисуйте, приводите в движение и удивляйтесь.",
+      "en":"Create quality animations, draw, set in motion and be amazed."
+   },
+   "contact-me":{
+      "ru":"Свяжитесь со мной",
+      "en":"Contact Me"
+   },
+     "let-me":{
+        "ru":"Дайте мне знать, если вы захотите приобрести или заказать мои услуги. Я готов работать фрилансером.",
+        "en":"Let me know if you want to purchase or order my services. I'm available for freelance work."
+     },
+     "your-name":{
+        "ru":"Как тебя зовут?",
+        "en":"What's your name?"
+     },
+     "your-email":{
+        "ru":"Ваш электронный адрес?",
+        "en":"Your email?"
+     },
+     "your-project":{
+        "ru":"Расскажи, как я помогу",
+        "en":"Tell me how I can help"
+     },
+     "get-quote":{
+        "ru":"Мое предложение",
+        "en":"Get a Quote"
+     },
+     "friends":{
+        "ru":"Давай дружить",
+        "en":"Let's be Friends"
+     }
+}

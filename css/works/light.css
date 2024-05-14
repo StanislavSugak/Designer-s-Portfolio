@@ -2,8 +2,8 @@ body {
     background-color: #FFFFFF; /*#25202F*/
 }
 
-.dropdown-toggle, .burger-menu p, .text-container p:nth-child(2), .text-container p:nth-child(3), 
-.work-text > p:nth-child(3), .work-contant-text p, .process-text p, .process-box-text > p, 
+.dropdown-toggle, .burger-menu p, .text-RedHat20-active, .text-container p:nth-child(2), .text-container p:nth-child(3), 
+.work-text > p:nth-child(3), .work-contant-text p, .process-text p, .process-box-text > p,
 .courses-text p, .courses-block-text p:first-child,
 .footer-text > p:nth-child(3), .footer-link p{
     color: #25202F;
@@ -11,6 +11,10 @@ body {
 
 .line-burger-icon, .burger-menu > div, .process-box-number > div{
     background-color:#25202F;
+}
+
+.process-box-number-circle p{
+    color: #FFFFFF;
 }
 
 .text-field__input:focus{
