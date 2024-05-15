@@ -17,8 +17,6 @@ function iconsign() {
             dialog.show();
 
             mynick.textContent = activeU.nickname;
-
-
         }
         else {
             dialog.close();

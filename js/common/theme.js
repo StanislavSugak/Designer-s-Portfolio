@@ -16,10 +16,12 @@ window.addEventListener('DOMContentLoaded', function() {
     var newTheme = theme.href.substring(0, lastIndex + 1) + savedTheme + theme.href.substring(theme.href.lastIndexOf("."));
 
     theme.href = newTheme;
+    iconuser();
   } else {
     checkbox.checked = false;
     theme.href = theme.href.replace("dark", "light");
     localStorage.setItem('selectedTheme', "light");
+    iconuser();
   }
 });
 
@@ -28,9 +30,49 @@ checkbox.addEventListener('click', function() {
     theme.href = theme.href.replace("light", "dark");
     
     localStorage.setItem('selectedTheme', "dark");
+
+    iconuser();
   } else {
     theme.href = theme.href.replace("dark", "light");
 
     localStorage.setItem('selectedTheme', "light"); 
+
+    iconuser();
   }
 });
+
+function iconuser() {
+  const activeUserString = localStorage.getItem('ActiveUser');
+  const activeU = activeUserString ? JSON.parse(activeUserString) : null;
+
+  const theme = localStorage.getItem('selectedTheme');
+
+  if (activeU) {
+    const role = activeU.role;
+  
+    if (role === 'admin') {
+      if(theme === 'light'){
+        icon.src = '../images/common/adminlight.svg';
+      }else{
+        icon.src = '../images/common/admindark.svg';
+      }
+    } 
+    else {
+      if (role === 'user') {
+          if(theme === 'light'){
+              icon.src = '../images/common/personlight.svg';
+          }else{
+            console.log('dark');
+              icon.src = '../images/common/persondark.svg';
+          }
+
+      }
+      else{
+          icon.src = '../images/common/registration.png';
+      }
+    }    
+  }
+  else{
+    icon.src = '../images/common/registration.png';
+  }
+};

@@ -124,6 +124,7 @@ dialog p:nth-child(4){
     margin: 0;
     padding-left: 45px;
     margin-top: 15px;
+    cursor: pointer;
 }
 /*-----dialog-----*/
 
