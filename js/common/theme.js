@@ -16,13 +16,12 @@ window.addEventListener('DOMContentLoaded', function() {
     var newTheme = theme.href.substring(0, lastIndex + 1) + savedTheme + theme.href.substring(theme.href.lastIndexOf("."));
 
     theme.href = newTheme;
-    iconuser();
   } else {
     checkbox.checked = false;
     theme.href = theme.href.replace("dark", "light");
     localStorage.setItem('selectedTheme', "light");
-    iconuser();
   }
+  iconuser();
 });
 
 checkbox.addEventListener('click', function() {
@@ -30,15 +29,12 @@ checkbox.addEventListener('click', function() {
     theme.href = theme.href.replace("light", "dark");
     
     localStorage.setItem('selectedTheme', "dark");
-
-    iconuser();
   } else {
     theme.href = theme.href.replace("dark", "light");
 
     localStorage.setItem('selectedTheme', "light"); 
-
-    iconuser();
   }
+  iconuser();
 });
 
 function iconuser() {
