@@ -1,4 +1,4 @@
-const map = document.querySelector('.address');
+const corse = document.querySelector('.courses');
 
 window.addEventListener('DOMContentLoaded', function() {
     const activeUserString = localStorage.getItem('ActiveUser');
@@ -6,13 +6,13 @@ window.addEventListener('DOMContentLoaded', function() {
 
     if (activeU) {
         if(activeU.role === "admin"){
-            map.classList.add('active');
+            corse.classList.add('active');
         }
         else{
-            map.classList.remove('active');
+            corse.classList.remove('active');
         }
     }
     else{
-        map.classList.remove('active');
+        corse.classList.remove('active');
     }
 });

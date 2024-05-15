@@ -6,7 +6,7 @@ body {
 .hello-container > p:nth-child(3), .blog-box-text p:nth-child(3),
 .blog-box-big-image p:nth-child(3),.notes-text p:nth-child(3),
 .notes-contant-item p:nth-child(2), 
-.footer-text > p:nth-child(3), .footer-link p{
+.footer-text > p:nth-child(3), .footer-link p, .admin-footer p{
     color: #FFFFFF;
 }
 

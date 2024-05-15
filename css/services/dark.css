@@ -4,7 +4,8 @@ body {
 
 .dropdown-toggle, .burger-menu p, .text-RedHat20-active,.text-container p:nth-child(2), .text-container p:nth-child(3), 
 .services-lower-box p, .offers-text p, .lower-box-contant-main p, 
-.services-text p:nth-child(2), .services-text p:nth-child(3), .footer-text > p:nth-child(3), .footer-link p{
+.services-text p:nth-child(2), .services-text p:nth-child(3), .footer-text > p:nth-child(3), .footer-link p,
+.admin-footer p{
     color: #FFFFFF;
 }
 

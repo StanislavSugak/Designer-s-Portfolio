@@ -477,6 +477,10 @@
     gap: 20px;
 }
 
+.courses.active{
+    display: none;
+}
+
 .courses-text{
     height: 160px;
     width: 100%;

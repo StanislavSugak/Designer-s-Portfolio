@@ -166,5 +166,9 @@
      "friends":{
         "ru":"Давай дружить",
         "en":"Let's be Friends"
-     }
+     },
+     "welcome":{
+      "ru":"Привет, администратор!",
+      "en":"Welcome, administrator!"
+   }
 }
