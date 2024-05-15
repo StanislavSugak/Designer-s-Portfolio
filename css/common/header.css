@@ -83,10 +83,54 @@ header{
     display: flex;
 }
 
-.icon-sign-up{
+.sign-up-menu{
+    position: relative;
     height: 40px;
     width: 40px;
     margin: 55px 0 0 calc(100% - (296px + 40px + 180px + 185px));
+}
+
+/*-----dialog-----*/
+dialog{
+    position: absolute;
+    top: 70px;
+    left: -100px;
+    height: 110px;
+    width: 170px;
+    background-color: rgba(134, 67, 220, 0.9);
+    border-radius: 20px;
+    border: 0px;
+    color: #FFFFFF;
+    padding: 10px;
+    outline: none;
+}
+
+dialog p:nth-child(1){
+    position: absolute;
+    top: 0px;
+    left: 168px;
+    margin: 0;
+    color: #25202F;
+    cursor: pointer;
+}
+
+dialog p:nth-child(3){
+    color: #25202F;
+    margin: 0;
+}
+
+dialog p:nth-child(4){
+    color: #FFFFFF;
+    margin: 0;
+    padding-left: 45px;
+    margin-top: 15px;
+}
+/*-----dialog-----*/
+
+.icon-sign-up{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
 }
 
 .rectangle-menu{
@@ -341,10 +385,15 @@ label
         display: none;
     }
 
-    .icon-sign-up{
+    .sign-up-menu{
         height: 30px;
         width: 30px;
         margin: 60px 0 0 calc(100% - (80px + 20px + 30px + 40px + 30px + 100px));
+    }
+
+    .icon-sign-up{
+        height: 30px;
+        width: 30px;
     }
 
     .rectangle-menu{

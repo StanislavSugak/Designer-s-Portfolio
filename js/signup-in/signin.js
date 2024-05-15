@@ -50,7 +50,7 @@ function checkuser(){
         var ActiveUser = user[id];
         const actuser = JSON.stringify(ActiveUser);
         localStorage.setItem('ActiveUser', actuser);
-        location.reload(); 
+        window.location.href = "../pages/about.html"
     }
     else{
         labelElementNameIN.classList.add('active');
