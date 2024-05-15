@@ -4,7 +4,7 @@ body {
 
 .nav-bar a:nth-child(1), .dropdown-toggle, .burger-menu p, .text-container p:nth-child(2), .text-container p:nth-child(3), .portfolio-main-text-box > p:nth-child(3),
 .portfolio-explore > p, .clients-text > p:nth-child(3), .testimonials-text> p:nth-child(3), .slider-paggination > p, .main-text-content p,
-.address-text > p:nth-child(3), .footer-text > p:nth-child(3), .footer-link p{
+.address-text > p:nth-child(3), .footer-text > p:nth-child(3), .footer-link p, .admin-footer p{
     color: #FFFFFF;
 }
 
