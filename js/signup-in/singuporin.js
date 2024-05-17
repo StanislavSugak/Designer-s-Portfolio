@@ -25,3 +25,13 @@ function addsignin(){
     signBtnUpAll[1].classList.remove('no-active');
     singbox.classList.add('in');
 }
+
+window.addEventListener('DOMContentLoaded', function() {
+    var simulateClick = localStorage.getItem('simulateClick');
+    if (simulateClick === 'true') {
+        SignInBtn.click();
+    }
+    setTimeout(function() { 
+        localStorage.setItem('simulateClick', 'false');
+    }, 100);
+});
