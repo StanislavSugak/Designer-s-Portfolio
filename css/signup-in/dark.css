@@ -1,0 +1,32 @@
+body {
+    background-color: #25202F; /*#25202F*/
+}
+
+.dropdown-toggle, .burger-menu p, .footer-text > p:nth-child(3), .footer-link p{
+    color: #FFFFFF;
+}
+
+
+.line-burger-icon, .burger-menu > div{
+    background-color:#FFFFFF;
+}
+
+.portfolio-explore p:first-child, .text-field__input:focus{
+    border-color: #FFFFFF;
+}
+
+.text-field__input{
+    background: #25202F;
+}
+
+.dropdown-menu, .burger-menu{
+    background: linear-gradient(
+        to bottom,
+        rgb(0, 0, 0) 0%,
+        hsla(0, 0%, 0%, 0.75) 100%
+    );
+}
+
+.rectangle-menu{
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
