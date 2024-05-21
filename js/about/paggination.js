@@ -56,6 +56,8 @@ function active(index, slide) {
       }
 
     }
+
+    
   }
 }
 
@@ -99,11 +101,13 @@ function setdata(){
  for (let i = 0; i < 5; i++) {
     img[i].src = people[i].src;
 
+    img[i].classList.remove('visible');
+    void img[i].offsetHeight;
+    img[i].classList.add('visible');
+
     if(i === 4){
       text[0].textContent = people[i].p1;
       text[1].textContent = people[i].p2;
     }
   }
 }
-
-

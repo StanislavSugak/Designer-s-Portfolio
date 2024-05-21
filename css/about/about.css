@@ -432,6 +432,21 @@
     border-radius: 15px;
 }
 
+.testimonials-content > img.visible{
+    animation: showMe .7s;
+}
+
+@keyframes showMe{
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
 .testimonials-content > div:nth-child(1){
     grid-row: 7 / span 6;
     grid-column: 52 / span 6;
@@ -529,6 +544,7 @@
     border: 1px solid #DEBAD9;
     border-radius: 10px;
     cursor: pointer;
+    transition: background-color 0.5s;
 }
 
 .paggination li.active{
