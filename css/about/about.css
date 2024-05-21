@@ -40,6 +40,11 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all 1s;
+}
+
+.button-hello:hover{
+    background-color: #620c77;
 }
 
 .button-hello p{
