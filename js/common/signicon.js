@@ -39,5 +39,5 @@ window.addEventListener('scroll', function () {
 
 function logoutf(){
     localStorage.setItem('ActiveUser', '');
-    location.href = "../pages/index.html";
+    location.href = "../pages/about.html";
 }
