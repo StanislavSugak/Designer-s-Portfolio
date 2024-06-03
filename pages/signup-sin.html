@@ -60,14 +60,16 @@
 
                 <p class="text-RedHat26 upper-text-burger lng-theme">Theme</p>
                 <div class="burger-menu-line"></div>
-                <input type="checkbox" id="toggle_checkbox">
-                <label for="toggle_checkbox">
-                    <div id="star">
-                        <div class="star" id="star-1">★</div>
-                        <div class="star" id="star-2">★</div>
-                    </div>
-                    <div id="moon"></div>
-                </label>
+                <div>
+                    <input type="checkbox" id="toggle_checkbox">
+                    <label for="toggle_checkbox">
+                      <span id="star">
+                        <span class="star" id="star-1">★</span>
+                        <span class="star" id="star-2">★</span>
+                      </span>
+                      <span id="moon"></span>
+                    </label>
+                </div>
             </div>
         </div>
     </header>
@@ -118,26 +120,26 @@
                         <label class="text-RedHat10 input__error lng-dmy-error">The field should not be empty. You can register only after reaching your 16th birthday!</label>
                     </form>
                     <form id="nickname" novalidate>
-                        <input class="input" type="text" required maxlength="20">
+                        <input class="input" type="text" maxlength="20" required>
                         <label class="text-RedHat16 input__placeholder lng-whtnickname">What's your nickname?</label>
                         <label class="text-RedHat10 input__error lng-whtnickname-error">The field should not be empty. Characters 2-20!</label>
                         <button class="text-RedHat10 button-auto lng-random1">auto generation</button>
                     </form>
-                    <form id="password" autocomplete="off" novalidate required>
-                        <input class="input" type="text" required maxlength="20">
+                    <form id="password" autocomplete="off" novalidate>
+                        <input class="input" type="text" maxlength="20" required>
                         <label class="text-RedHat16 input__placeholder lng-whtpassword">What's your password?</label>
                         <label class="text-RedHat10 input__error lng-whtpassword-error">The field should not be empty. It must contain one: uppercase and uppercase letter, number and symbol. Characters 8-20</label>
                         <button class="text-RedHat10 button-auto lng-random2">auto generation</button>
                         <img src="../images/signup-in/eyes.png" class="show-password" alt="failed">
                     </form>
-                    <form id="passwordRepead" autocomplete="off" novalidate required>
-                        <input class="input" type="text" required maxlength="20">
+                    <form id="passwordRepead" autocomplete="off" novalidate>
+                        <input class="input" type="text" maxlength="20" required>
                         <label class="text-RedHat16 input__placeholder lng-whtpasswordrepeat">Repeat your password</label>
                         <label class="text-RedHat10 input__error lng-whtpasswordrepeat-error">Passwords must match</label>
                     </form>
-                    <form id="agree" required>
+                    <form id="agree">
                         <div class="birth-line"></div>
-                        <input type="checkbox" class="input__checkbox">
+                        <input type="checkbox" class="input__checkbox" required>
                         <label class="text-RedHat16 input__placeholder-block lng-user-agreement">User Agreement</label>
                         <label class="text-RedHat10 input__error lng-user-agreement-error">Check the box that you have read and agree. Required field</label>
                     </form>
@@ -148,7 +150,7 @@
                         <label class="text-RedHat16 input__placeholder lng-in-whtnickname">What's your nickname?</label>
                         <label class="text-RedHat10 input__error lng-in-whtnickname-error">There is no such user!</label>
                     </form>
-                    <form id="passwordIN" autocomplete="off" novalidate required>
+                    <form id="passwordIN" autocomplete="off" novalidate>
                         <input class="input in" type="password" required maxlength="20">
                         <label class="text-RedHat16 input__placeholder lng-in-whtpassword">What's your password?</label>
                         <label class="text-RedHat10 input__error lng-in-whtpassword-error">Invalid password!</label>
@@ -175,15 +177,15 @@
         </div>
         <div class="footer-field">
             <div>
-                <input class="text-field__input text-RedHat20 type="text" required>
+                <input class="text-field__input text-RedHat20" type="text" required>
                 <label class="footer-field__placeholder text-RedHat20 lng-your-name">What's your name?</label>
             </div>
             <div>
-                <input class="text-field__input text-RedHat20 type="text" required>
+                <input class="text-field__input text-RedHat20" type="text" required>
                 <label class="footer-field__placeholder text-RedHat20 lng-your-email">Your email?</label>
             </div>
             <div>
-                <input class="text-field__input text-RedHat20 type="text" required>
+                <input class="text-field__input text-RedHat20" type="text" required>
                 <label class="footer-field__placeholder text-RedHat20 lng-your-project">Tell me about your project</label>
             </div>
             <div class="footer-lower-content">
@@ -209,7 +211,7 @@
                 </div>
                 <div class="footer-link-item">
                     <img src="../images/common/polygon.png" alt="failed">
-                    <a href="tel:+375 (33 613 76-41"><img src="../images/common/mytelephone.png" alt="failed"></a>
+                    <a href="tel:+375336137641"><img src="../images/common/mytelephone.png" alt="failed"></a>
                 </div>
             </div>
         </div>
