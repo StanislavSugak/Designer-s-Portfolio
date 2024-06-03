@@ -1,11 +1,5 @@
 var signupCont = document.querySelector('.lower-btn');
 
-for (let i = 0; i < localStorage.length; i++) {
-    const key = localStorage.key(i);
-    const value = localStorage.getItem(key);
-    console.log(`${key}: ${value}`);
-}
-
 var signBtnUpAll = signupCont.querySelectorAll('p');
 var signBtn = signBtnUpAll[0];
 
@@ -120,13 +114,13 @@ function RewriteUser(user){
     localStorage.setItem('user', jsonString);
 }
 
-window.addEventListener('DOMContentLoaded', async function() {
+window.addEventListener('DOMContentLoaded', async function() { //fix
     const storedData = localStorage.getItem('user');
     user = JSON.parse(storedData);
 
-    if(storedData === null){
+    if(!storedData || user == null || user == ''){
         user = await getUser();
-        console.log(user);
+
         const usersString = JSON.stringify(user);
         localStorage.setItem('user', usersString);
     }
