@@ -5,10 +5,10 @@ registrationBtn.addEventListener('click', registrationlink);
 signInBtn.addEventListener('click', signinlink);
 
 function registrationlink(){
-    location.href = "pages/signup-sin.html";
+    location.href = "/pages/signup-sin.html";
 }
 
 function signinlink(){
     localStorage.setItem('simulateClick', 'true');
-    location.href = "pages/signup-sin.html";
+    location.href = "/pages/signup-sin.html";
 }
