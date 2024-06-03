@@ -48,27 +48,27 @@ function iconuser() {
   
     if (role === 'admin') {
       if(theme === 'light'){
-        icon.src = '../images/common/adminlight.svg';
+        icon.src = './images/common/adminlight.svg';
       }else{
-        icon.src = '../images/common/admindark.svg';
+        icon.src = './images/common/admindark.svg';
       }
     } 
     else {
       if (role === 'user') {
           if(theme === 'light'){
-              icon.src = '../images/common/personlight.svg';
+              icon.src = './images/common/personlight.svg';
           }else{
             console.log('dark');
-              icon.src = '../images/common/persondark.svg';
+              icon.src = './images/common/persondark.svg';
           }
 
       }
       else{
-          icon.src = '../images/common/registration.png';
+          icon.src = './images/common/registration.png';
       }
     }    
   }
   else{
-    icon.src = '../images/common/registration.png';
+    icon.src = './images/common/registration.png';
   }
 };
