@@ -16,7 +16,7 @@ function checkbirth(){
     var year = parseInt(inputBirth[2].value);
   
     var isValid = true;
-  
+
     if (year > currentYear || (year === currentYear && month > currentMonth) || (year === currentYear && month === currentMonth && day > currentDay)) {
         isValid = false;
     } else {
@@ -49,8 +49,16 @@ function checkbirth(){
                 isValid = false;
             break;        
       }
-    }
+
+      var birthDate = new Date(year, month - 1, day);
+      var sixteenYearsAgo = new Date();
+      sixteenYearsAgo.setFullYear(sixteenYearsAgo.getFullYear() - 16);
   
+      if (birthDate > sixteenYearsAgo) {
+        isValid = false;
+      }  
+    }
+    
     if (!isValid) {
       labelElementBirth.classList.add('active');
     } else {
