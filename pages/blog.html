@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/common/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/blog/blog.css">
+    <link rel="stylesheet" type="text/css" href="../css/blog/light.css" id="theme-link">
+    <link rel="icon"  type="image/x-icon" href="../images/common/favic.ico">
+    <title>Blog</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p class="text-Montsr30">A</p>
+            <div class="part-logo"></div>
+        </div>
+        <nav class="nav-bar">
+            <a href="../pages/about.html" class="text-RedHat20 lng-about">About</a>
+            <a href="../pages/services.html" class="text-RedHat20 lng-services">Services</a>
+            <a href="../pages/work.html" class="text-RedHat20 lng-works">Works</a>
+            <a href="../pages/blog.html" class="text-RedHat20 text-RedHat20-active lng-blog">Blog</a>
+        </nav>
+        <div class="dropdown">
+            <button onclick="dropdown()" class="text-RedHat20 dropdown-toggle lng-blog1">Blog</button>
+            <div class="dropdown-menu">
+                <a href="../pages/about.html" class="text-RedHat20 lng-about1">About</a>
+                <a href="../pages/services.html" class="text-RedHat20 lng-services1">Services</a>
+                <a href="../pages/work.html" class="text-RedHat20 lng-works1">Works</a>
+            </div>
+        </div>
+        <div class="sign-up-menu">
+            <img src="../images/common/registration.png" alt="failed" class="icon-sign-up">
+            <dialog>
+                <p class="text-RedHat20">x</p>
+                <p class="text-Montsr26">GoodBye</p>
+                <p class="text-RedHat16">nickname</p>
+                <p class="text-RedHat24">Log out</p>
+            </dialog>
+        </div>    
+        <div class="header-menu">
+            <div class="rectangle-menu">
+                <div class="burger-icon">
+                    <div class="line-burger-icon"></div>
+                    <div class="line-burger-icon"></div>
+                    <div class="line-burger-icon"></div>
+                </div>
+            </div>
+            <div class="burger-menu">
+                <p class="text-RedHat26 upper-text-burger lng-language">Language</p>
+                <div class="burger-menu-line"></div>
+                <p class="text-RedHat20 lower-text-burger lng-russian" data-value="ru">Russia</p>
+                <div class="burger-menu-line-little"></div>
+                <p class="text-RedHat20 lower-text-burger lng-english" data-value="en">English</p>
+
+                <p class="text-RedHat26 upper-text-burger lng-authorization">Authorization</p>
+                <div class="burger-menu-line"></div>
+                <p class="text-RedHat20 lower-text-burger lng-sign-up">Sign in</p>
+                <div class="burger-menu-line-little"></div>
+                <p class="text-RedHat20 lower-text-burger lng-registration">Registration</p>
+
+                <p class="text-RedHat26 upper-text-burger lng-theme">Theme</p>
+                <div class="burger-menu-line"></div>
+                <div>
+                    <input type="checkbox" id="toggle_checkbox">
+                    <label for="toggle_checkbox">
+                      <span id="star">
+                        <span class="star" id="star-1">★</span>
+                        <span class="star" id="star-2">★</span>
+                      </span>
+                      <span id="moon"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hello">
+            <div class="hello-container">
+                <p class="text-RedHat36 lng-u-should">You should definitely stay</p>
+                <p class="text-RedHat20 lng-here-u">Here you can relax and learn</p>
+                <p class="text-RedHat26 lng-u-will">You'll be able to find</p>
+                <div class="hello-container-list">
+                    <div class="hello-container-list-line"></div>
+                    <p class="text-RedHat20 lng-inspiration">Inspiration</p>
+                    <p class="text-RedHat20 lng-more-ideas">More ideas</p>
+                    <p class="text-RedHat20 lng-assistance">Assistance</p>
+                    <p class="text-RedHat20 lng-cooperation">Cooperation</p>
+                </div>
+            </div>
+            <img src="../images/blog/blog.png" alt="failed">
+            <div class="modal">
+                <div class="modal-box">
+                    <p class="text-RedHat36 lng-happiness">Happiness</p>
+                    <div class="modal-box-underline"></div>
+                    <p class="text-RedHat16 lng-take-a-look">Take a look at the site, and then at the bottom you can
+                        chat with me closer
+                    </p>
+                    <div class="modal-box-underline"></div>
+                    <div class="closer">
+                        <div class="closer-line"></div>
+                        <div class="closer-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="blog-box">
+                <div class="blog-box-text">
+                    <p class="text-RedHat18 lng-my-blog">Blog</p>
+                    <div class="blog-box-text-line"></div>
+                    <p class="text-RedHat36 lng-get-news">Get News Feeds</p>
+                </div>
+                <div class="blog-box-big-image">
+                    <img src="../images/blog/big-box.png" alt="failed">
+                    <p class="text-RedHat16 lng-june1">20 June/2020</p>
+                    <p class="text-RedHat20 lng-technology">Technology is evolving rapidly. New devices and applications.</p>
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-box-split">
+                    <img src="../images/blog/split1.png" alt="failed">
+                    <p class="text-RedHat16 lng-june2">20 June/2020</p>
+                    <p class="text-RedHat20 lng-new-devices">New devices and applications come to the market.</p>
+                </div>
+                <div class="blog-box-split">
+                    <img src="../images/blog/split2.png" alt="failed">
+                    <p class="text-RedHat16 lng-june3">20 June/2020</p>
+                    <p class="text-RedHat20 lng-every-day">Every day providing solutions to problems.</p>
+                </div>
+            </div>
+        </section>
+        <section class="notes">
+            <div class="notes-text">
+                <p class="text-RedHat18 lng-notes">Notes</p>
+                <div class="notes-text-line"></div>
+                <p class="text-RedHat36 lng-as-i-thought">As I thought about it</p>
+            </div>
+            <div class="notes-contant">
+                <div class="notes-contant-item">
+                    <p class="text-RedHat20 lng-ux-designer1">UX designer · 30 Jule 2020</p>
+                    <p class="text-RedHat30 lng-ux-review">UX review presentations</p>
+                    <p class="text-RedHat18 lng-how-do">How do you create compelling presentations that wow you colleagues and impress your managers?</p>
+                </div>
+                <div class="notes-contant-item">
+                    <p class="text-RedHat20 lng-ux-designer2">UX designer · 12 Jule 2020</p>
+                    <p class="text-RedHat30 lng-communication1">Communication skills</p>
+                    <p class="text-RedHat18 lng-i-have-a1">I have a lot of experience in communicating with different people, is talking really that important?</p>
+                </div>
+                <div class="notes-contant-item">
+                    <p class="text-RedHat20 lng-ux-designer3">UX designer · 21 June 2020</p>
+                    <p class="text-RedHat30 lng-communication2">Communication skills</p>
+                    <p class="text-RedHat18 lng-i-have-a2">I have a lot of experience in communicating with different people, is talking really that important?</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-text">
+                <p class="text-RedHat18 lng-contact-me">Contact Me</p>
+                <div class="containers-basic-line-under-text"></div>
+                <p class="text-RedHat36 lng-let-me">Let me know if you want to talk about a potential collaboration. I'm open to all offers.</p>
+            </div>
+            <div class="footer-contact-gmail">
+                <P class="text-RedHat24">stanislav71492584@gmail.com</P>
+            </div>
+        </div>
+        <div class="footer-field">
+            <div>
+                <input class="text-field__input text-RedHat20" type="text" required>
+                <label class="footer-field__placeholder text-RedHat20 lng-your-name">What's your name?</label>
+            </div>
+            <div>
+                <input class="text-field__input text-RedHat20" type="text" required>
+                <label class="footer-field__placeholder text-RedHat20 lng-your-email">Your email?</label>
+            </div>
+            <div>
+                <input class="text-field__input text-RedHat20" type="text" required>
+                <label class="footer-field__placeholder text-RedHat20 lng-your-project">Tell me about your ideas</label>
+            </div>
+            <div class="footer-lower-content">
+                <div class="footer-button">
+                    <p class="text-RedHat18 lng-get-quote">Get a Quote</p>
+                </div>
+                <div class="footer-lower-element">
+                    <img src="../images/common/skrep.png" alt="failed">
+                    <img src="../images/common/arroww.png" alt="failed">
+                </div>
+            </div>
+        </div>
+        <div class="footer-link">
+            <p class="text-RedHat36 lng-friends">Let's be Friends</p>
+            <div class="footer-link-items">
+                <div class="footer-link-item">
+                    <img src="../images/common/polygon.png" alt="failed">
+                    <a href="https://github.com/StanislavSugak" target="_blank"><img src="../images/common/github.png"
+                            alt="failed"></a>
+                </div>
+                <div class="footer-link-item">
+                    <img src="../images/common/polygon.png" alt="failed">
+                    <a href="mailto:stanislav71492584@gmail.com" target="_blank"><img src="../images/common/pochta.png"
+                            alt="failed"></a>
+                </div>
+                <div class="footer-link-item">
+                    <img src="../images/common/polygon.png" alt="failed">
+                    <a href="tel:+375336137641"><img src="../images/common/mytelephone.png" alt="failed"></a>
+                </div>
+            </div>
+        </div>
+        <div class="admin-footer">
+            <p class="text-RedHat36 lng-welcome">Welcome, administrator!</p>
+        </div>
+    </footer>
+</body>
+<script src="../js/common/burgerMenu.js"></script>
+<script src="../js/common/dropdown.js"></script>
+<script src="../js/common/interpreter.js"></script>
+<script src="../js/common/signicon.js"></script>
+<script src="../js/blog/interpreter.js"></script>
+<script src="../js/common/theme.js"></script>
+<script src="../js/common/adminoruser.js"></script>
+<script src="../js/common/linkForSign.js"></script>
+</html>

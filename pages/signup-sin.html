@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/common/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/signup-in/light.css" id="theme-link">
+    <link rel="stylesheet" type="text/css" href="../css/signup-in/signup-in.css">
+    <link rel="icon"  type="image/x-icon" href="../images/common/favic.ico">
+    <title>Sign</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p class="text-Montsr30">A</p>
+            <div class="part-logo"></div>
+        </div>
+        <nav class="nav-bar">
+            <a href="../pages/about.html" class="text-RedHat20 lng-about">About</a>
+            <a href="../pages/services.html" class="text-RedHat20 lng-services">Services</a>
+            <a href="../pages/work.html" class="text-RedHat20 lng-works">Works</a>
+            <a href="../pages/blog.html" class="text-RedHat20 lng-blog">Blog</a>
+        </nav>
+        <div class="dropdown">
+            <button onclick="dropdown()" class="text-RedHat20 dropdown-toggle lng-about1">About</button>
+            <div class="dropdown-menu">
+                <a href="../pages/services.html" class="text-RedHat20 lng-services1">Services</a>
+                <a href="../pages/work.html" class="text-RedHat20 lng-works1">Works</a>
+                <a href="../pages/blog.html" class="text-RedHat20 lng-blog1">Blog</a>
+            </div>
+        </div>
+        <div class="sign-up-menu">
+            <img src="../images/common/registration.png" alt="failed" class="icon-sign-up">
+            <dialog>
+                <p class="text-RedHat20">x</p>
+                <p class="text-Montsr26">GoodBye</p>
+                <p class="text-RedHat16">nickname</p>
+                <p class="text-RedHat24">Log out</p>
+            </dialog>
+        </div>    
+        <div class="header-menu">
+            <div class="rectangle-menu">
+                <div class="burger-icon">
+                    <div class="line-burger-icon"></div>
+                    <div class="line-burger-icon"></div>
+                    <div class="line-burger-icon"></div>
+                </div>
+            </div>
+            <div class="burger-menu">
+                <p class="text-RedHat26 upper-text-burger lng-language">Language</p>
+                <div class="burger-menu-line"></div>
+                <p class="text-RedHat20 lower-text-burger lng-russian" data-value="ru">Russia</p>
+                <div class="burger-menu-line-little"></div>
+                <p class="text-RedHat20 lower-text-burger lng-english" data-value="en">English</p>
+
+                <p class="text-RedHat26 upper-text-burger lng-authorization">Authorization</p>
+                <div class="burger-menu-line"></div>
+                <p class="text-RedHat20 lower-text-burger lng-sign-up">Sign in</p>
+                <div class="burger-menu-line-little"></div>
+                <p class="text-RedHat20 lower-text-burger lng-registration">Registration</p>
+
+                <p class="text-RedHat26 upper-text-burger lng-theme">Theme</p>
+                <div class="burger-menu-line"></div>
+                <div>
+                    <input type="checkbox" id="toggle_checkbox">
+                    <label for="toggle_checkbox">
+                      <span id="star">
+                        <span class="star" id="star-1">★</span>
+                        <span class="star" id="star-2">★</span>
+                      </span>
+                      <span id="moon"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="sign-up">
+            <div class="sign-up-box">
+                <div class="upper-btn">
+                    <div class="upper-btn-text">
+                        <p class="text-RedHat24 lng-up">Sign up</p>
+                        <p class="text-RedHat24 lng-in" >Sign in</p>
+                    </div>
+                    <div class="btn-line"></div>
+                </div>
+                <div class="sign-up-content">
+                    <form id="name">
+                        <input class="input" type="text" required>
+                        <label class="text-RedHat16 input__placeholder lng-whtname">What's your name?</label>
+                        <label class="text-RedHat10 input__error lng-whtname-error">The field should not be empty or the number of characters should be from 2 to 20</label>
+                    </form>
+                    <form id="surname">
+                        <input class="input" type="text" required>
+                        <label class="text-RedHat16 input__placeholder lng-whtsurname">What's your surname?</label>
+                        <label class="text-RedHat10 input__error lng-whtsurname-error">The field should not be empty or the number of characters should be from 2 to 20</label>
+                    </form>
+                    <form id="patronymic">
+                        <input class="input" type="text" required>
+                        <label class="text-RedHat16 input__placeholder lng-whtpatronymic">What's your patronymic?</label>
+                        <label class="text-RedHat10 input__error active-nothing lng-whtpatronymic-error">This field is optional</label>
+                    </form>
+                    <form id="phone">
+                        <input class="input" type="text" required>
+                        <label class="text-RedHat16 input__placeholder lng-whtphone">What's your phone?</label>
+                        <label class="text-RedHat10 input__error lng-whtphone-error">The field should not be empty. Only on the phone of Belarus! 375 or 80 (+9 number)</label>
+                    </form>
+                    <form id="email">
+                        <input class="input" type="text" required>
+                        <label class="text-RedHat16 input__placeholder lng-whtemail">What's your email?</label>
+                        <label class="text-RedHat10 input__error lng-whtemail-error">The field should not be empty. Invalid mail!</label>
+                    </form>
+                    <form id="birth">
+                        <div class="birth-line"></div>
+                        <div class="box-birth__input">
+                            <input type="text" class="input__birth" maxlength="2">
+                            <input type="text" class="input__birth" maxlength="2">
+                            <input type="text" class="input__birth" maxlength="4">
+                        </div>
+                        <label class="text-RedHat16 input__placeholder-block lng-dmy">day.month.years</label>
+                        <label class="text-RedHat10 input__error lng-dmy-error">The field should not be empty. You can register only after reaching your 16th birthday!</label>
+                    </form>
+                    <form id="nickname" novalidate>
+                        <input class="input" type="text" maxlength="20" required>
+                        <label class="text-RedHat16 input__placeholder lng-whtnickname">What's your nickname?</label>
+                        <label class="text-RedHat10 input__error lng-whtnickname-error">The field should not be empty. Characters 2-20!</label>
+                        <button class="text-RedHat10 button-auto lng-random1">auto generation</button>
+                    </form>
+                    <form id="password" autocomplete="off" novalidate>
+                        <input class="input" type="text" maxlength="20" required>
+                        <label class="text-RedHat16 input__placeholder lng-whtpassword">What's your password?</label>
+                        <label class="text-RedHat10 input__error lng-whtpassword-error">The field should not be empty. It must contain one: uppercase and uppercase letter, number and symbol. Characters 8-20</label>
+                        <button class="text-RedHat10 button-auto lng-random2">auto generation</button>
+                        <img src="../images/signup-in/eyes.png" class="show-password" alt="failed">
+                    </form>
+                    <form id="passwordRepead" autocomplete="off" novalidate>
+                        <input class="input" type="text" maxlength="20" required>
+                        <label class="text-RedHat16 input__placeholder lng-whtpasswordrepeat">Repeat your password</label>
+                        <label class="text-RedHat10 input__error lng-whtpasswordrepeat-error">Passwords must match</label>
+                    </form>
+                    <form id="agree">
+                        <div class="birth-line"></div>
+                        <input type="checkbox" class="input__checkbox" required>
+                        <label class="text-RedHat16 input__placeholder-block lng-user-agreement">User Agreement</label>
+                        <label class="text-RedHat10 input__error lng-user-agreement-error">Check the box that you have read and agree. Required field</label>
+                    </form>
+                </div>
+                <div class="sign-up-content no-active">
+                    <form id="nicknameIN" novalidate>
+                        <input class="input in" type="text" required maxlength="20">
+                        <label class="text-RedHat16 input__placeholder lng-in-whtnickname">What's your nickname?</label>
+                        <label class="text-RedHat10 input__error lng-in-whtnickname-error">There is no such user!</label>
+                    </form>
+                    <form id="passwordIN" autocomplete="off" novalidate>
+                        <input class="input in" type="password" required maxlength="20">
+                        <label class="text-RedHat16 input__placeholder lng-in-whtpassword">What's your password?</label>
+                        <label class="text-RedHat10 input__error lng-in-whtpassword-error">Invalid password!</label>
+                    </form>
+                </div>
+                <div class="lower-btn">
+                    <div class="btn-line"></div>
+                    <p class="text-RedHat24 lng-up1">Sign up</p>
+                    <p class="text-RedHat24 no-active lng-in1">Sign in</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-text">
+                <p class="text-RedHat18 lng-contact-me">Contact Me</p>
+                <div class="containers-basic-line-under-text"></div>
+                <p class="text-RedHat36 lng-let-me">Let me know if you want to talk about a potential collaboration. I'm available for freelance work.</p>
+            </div>
+            <div class="footer-contact-gmail">
+                <P class="text-RedHat24">stanislav71492584@gmail.com</P>
+            </div>
+        </div>
+        <div class="footer-field">
+            <div>
+                <input class="text-field__input text-RedHat20" type="text" required>
+                <label class="footer-field__placeholder text-RedHat20 lng-your-name">What's your name?</label>
+            </div>
+            <div>
+                <input class="text-field__input text-RedHat20" type="text" required>
+                <label class="footer-field__placeholder text-RedHat20 lng-your-email">Your email?</label>
+            </div>
+            <div>
+                <input class="text-field__input text-RedHat20" type="text" required>
+                <label class="footer-field__placeholder text-RedHat20 lng-your-project">Tell me about your project</label>
+            </div>
+            <div class="footer-lower-content">
+                <div class="footer-button">
+                    <p class="text-RedHat18 lng-get-quote">Get a Quote</p>
+                </div>
+                <div class="footer-lower-element">
+                    <img src="../images/common/skrep.png" alt="failed">
+                    <img src="../images/common/arroww.png" alt="failed">
+                </div>
+            </div>
+        </div>
+        <div class="footer-link">
+            <p class="text-RedHat36 lng-friends">Let's be Friends</p>
+            <div class="footer-link-items">
+                <div class="footer-link-item">
+                    <img src="../images/common/polygon.png" alt="failed">
+                    <a href="https://github.com/StanislavSugak" target="_blank"><img src="../images/common/github.png" alt="failed"></a>
+                </div>
+                <div class="footer-link-item">
+                    <img src="../images/common/polygon.png" alt="failed">
+                    <a href="mailto:stanislav71492584@gmail.com" target="_blank"><img src="../images/common/pochta.png" alt="failed"></a>
+                </div>
+                <div class="footer-link-item">
+                    <img src="../images/common/polygon.png" alt="failed">
+                    <a href="tel:+375336137641"><img src="../images/common/mytelephone.png" alt="failed"></a>
+                </div>
+            </div>
+        </div>
+        <div class="admin-footer">
+            <p class="text-RedHat36 lng-welcome">Welcome, administrator!</p>
+        </div>
+    </footer>
+</body>
+    <script src="../js/common/burgerMenu.js"></script>
+    <script src="../js/common/dropdown.js"></script>
+    <script src="../js/signup-in/checkname.js"></script>
+    <script src="../js/signup-in/checksurname.js"></script>
+    <script src="../js/signup-in/checkphone.js"></script>
+    <script src="../js/signup-in/checkemail.js"></script>
+    <script src="../js/signup-in/checknickname.js"></script>
+    <script src="../js/signup-in/checkpassword.js"></script>
+    <script src="../js/signup-in/checkbirth.js"></script>
+    <script src="../js/signup-in/checkuseragree.js"></script>
+    <script src="../js/signup-in/signup.js"></script>
+    <script src="../js/signup-in/singuporin.js"></script>
+    <script src="../js/signup-in/signin.js"></script>
+    <script src="../js/signup-in/interpreter.js"></script>
+    <script src="../js/common/theme.js"></script>
+    <script src="../js/common/interpreter.js"></script>
+    <script src="../js/common/signicon.js"></script>
+    <script src="../js/common/adminoruser.js"></script>
+    <script src="../js/common/linkForSign.js"></script>
+    <script src="../js/common/notactiveuser.js"></script>
+</html>

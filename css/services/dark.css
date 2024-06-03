@@ -1,0 +1,47 @@
+body {
+    background-color: #25202F; /*#25202F*/
+}
+
+.dropdown-toggle, .burger-menu p, .text-RedHat20-active,.text-container p:nth-child(2), .text-container p:nth-child(3), 
+.services-lower-box p, .offers-text p, .lower-box-contant-main p, 
+.services-text p:nth-child(2), .services-text p:nth-child(3), .footer-text > p:nth-child(3), .footer-link p,
+.admin-footer p{
+    color: #FFFFFF;
+}
+
+
+.line-burger-icon, .burger-menu > div{
+    background-color:#FFFFFF;
+}
+
+.portfolio-explore p:first-child,.text-field__input:focus{
+    border-color: #FFFFFF;
+}
+
+.text-field__input{
+    background: #25202F;
+}
+
+.dropdown-menu, .burger-menu{
+    background: linear-gradient(
+        to bottom,
+        rgb(0, 0, 0) 0%,
+        hsla(0, 0%, 0%, 0.75) 100%
+    );
+}
+
+.rectangle-menu{
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+
+.lower-box-contant{
+    background: linear-gradient(
+        to bottom,
+        rgb(187, 133, 255, 10%) 0%,
+        rgb(255, 177, 222, 10%) 100%
+    );
+}
+
+.lower-box-contant-text p{
+    color: #FFFFFF;
+}

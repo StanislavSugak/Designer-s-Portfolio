@@ -1,0 +1,46 @@
+body {
+    background-color: #25202F; /*#25202F*/
+}
+
+.dropdown-toggle, .burger-menu p, .text-RedHat20-active, .text-container p:nth-child(2), .text-container p:nth-child(3), 
+.work-text > p:nth-child(3), .work-contant-text p, .process-text p, .process-box-text > p,
+.courses-text p, .courses-block-text p:first-child,
+.footer-text > p:nth-child(3), .footer-link p, .admin-footer p{
+    color: #FFFFFF;
+}
+
+.line-burger-icon, .burger-menu > div, .process-box-number > div{
+    background-color:#FFFFFF;
+}
+
+.process-box-number-circle p{
+    color: #25202F;
+}
+
+.text-field__input:focus{
+    border-color: #FFFFFF;
+}
+
+.text-field__input{
+    background: #25202F;
+}
+
+.dropdown-menu, .burger-menu{
+    background: linear-gradient(
+        to bottom,
+        rgb(0, 0, 0) 0%,
+        hsla(0, 0%, 0%, 0.75) 100%
+    );
+}
+
+.rectangle-menu{
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+
+.work-contant{
+    background-color: #666666;
+}
+
+.courses-block-text p:last-child{
+    color: #ffffff;
+}

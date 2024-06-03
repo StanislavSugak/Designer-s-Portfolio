@@ -1,0 +1,113 @@
+.text-Montsr26{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    line-height: 37px;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+}
+
+
+.text-Montsr30{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+}
+
+.text-RedHat10{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    text-decoration: none;
+}
+
+.text-RedHat16{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0;
+    text-decoration: none;
+}
+
+.text-RedHat18{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0;
+    text-decoration: none;
+}
+
+.text-RedHat20{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #7E7F86;
+    margin: 0;
+    text-decoration: none;
+}
+
+.text-RedHat20-active{
+    color: var(--active-color-nav-bar);
+}
+
+.text-RedHat24{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #666666;
+    margin: 0;
+}
+
+.text-RedHat26{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #7E7F86;
+    margin: 0;
+    text-decoration: none;
+}
+
+.text-RedHat30{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 0;
+    text-decoration: none;
+}
+
+.text-RedHat36{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+.text-RedHat60{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #7E7F86;
+    margin: 0;
+    text-decoration: none;
+}

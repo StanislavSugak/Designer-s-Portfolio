@@ -1,0 +1,214 @@
+{
+    "about":{
+       "ru":"О себе",
+       "en":"About"
+    },
+    "services":{
+       "ru":"Сервис",
+       "en":"Services"
+    },
+    "works":{
+       "ru":"Работа",
+       "en":"Works"
+    },
+    "blog":{
+       "ru":"Блог",
+       "en":"Blog"
+    },
+    "about1":{
+       "ru":"О себе",
+       "en":"About"
+    },
+    "services1":{
+       "ru":"Сервис",
+       "en":"Services"
+    },
+    "works1":{
+       "ru":"Работа",
+       "en":"Works"
+    },
+    "blog1":{
+       "ru":"Блог",
+       "en":"Blog"
+    },
+    "language":{
+       "ru":"Язык",
+       "en":"Language"
+    },
+    "russian":{
+       "ru":"Русский",
+       "en":"Russia"
+    },
+    "english":{
+       "ru":"Английский",
+       "en":"English"
+    },
+    "authorization":{
+       "ru":"Авторизация",
+       "en":"Authorization"
+    },
+    "sign-up":{
+       "ru":"Вход",
+       "en":"Sign up"
+    },
+    "registration":{
+       "ru":"Регистрация",
+       "en":"Registration"
+    },
+    "theme":{
+       "ru":"Тема",
+       "en":"Theme"
+    },
+    "up":{
+        "ru":"Регистрация",
+        "en":"Sign up"
+    },
+    "in":{
+        "ru":"Вход",
+        "en":"Sign in"
+    },
+    "whtname":{
+        "ru":"Как тебя зовут?",
+        "en":"What's your name?"
+    },
+    "whtname-error":{
+        "ru":"Поле не должно быть пустым или количество символов должно составлять от 2 до 20",
+        "en":"The field should not be empty or the number of characters should be from 2 to 20"
+    },
+    "whtsurname":{
+        "ru":"Какая у тебя фамилия",
+        "en":"What's your surname?"
+    },
+    "whtsurname-error":{
+        "ru":"Поле не должно быть пустым или количество символов должно составлять от 2 до 20",
+        "en":"The field should not be empty or the number of characters should be from 2 to 20"
+    },
+    "whtpatronymic":{
+        "ru":"Какое у тебя отчество",
+        "en":"What's your patronymic?"
+    },
+    "whtpatronymic-error":{
+        "ru":"Это поле необязательное",
+        "en":"This field is optional"
+    },
+    "whtphone":{
+        "ru":"Какой у тебя телефон?",
+        "en":"What's your phone?"
+    },
+    "whtphone-error":{
+        "ru":"Поле не должно быть пустым. Только по телефону из Беларуси! 375 или 80 (+9 номер)",
+        "en":"The field should not be empty. Only on the phone of Belarus! 375 or 80 (+9 number)"
+    },
+    "whtemail":{
+        "ru":"Какая у тебя почта",
+        "en":"What's your email?"
+    },
+    "whtemail-error":{
+        "ru":"Поле не должно быть пустым. Неверный адрес электронной почты!",
+        "en":"The field should not be empty. Invalid mail!"
+    },
+    "dmy":{
+        "ru":"день.месяц.год",
+        "en":"day.month.years"
+    },
+    "dmy-error":{
+        "ru":"Поле не должно быть пустым. Зарегистрироваться можно только по достижении 16-летия!",
+        "en":"The field should not be empty. You can register only after reaching your 16th birthday!"
+    },
+    "whtnickname":{
+        "ru":"Какой у тебя никнейм?",
+        "en":"What's your nickname?"
+    },
+    "whtnickname-error":{
+        "ru":"Поле не должно быть пустым. Количество символов: 2-20!",
+        "en":"The field should not be empty. Characters 2-20!"
+    },
+    "random1":{
+        "ru":"авто генерация",
+        "en":"auto generation"
+    },
+    "whtpassword":{
+        "ru":"Какой у тебя пароль?",
+        "en":"What's your password?"
+    },
+    "whtpassword-error":{
+        "ru":"Поле не пустое. В нем должно быть одна: заглавная буква, цифра и символ. Количество символов 8-20",
+        "en":"The field should not be empty. It must contain one: uppercase and uppercase letter, number and symbol. Characters 8-20"
+    },
+    "random2":{
+        "ru":"авто генерация",
+        "en":"auto generation"
+    },
+    "whtpasswordrepeat":{
+        "ru":"Повторите ваш пароль",
+        "en":"Repeat your password"
+    },
+    "whtpasswordrepeat-error":{
+        "ru":"Пароли не совпадают",
+        "en":"Passwords must match"
+    },
+    "user-agreement":{
+        "ru":"Польз. соглашение",
+        "en":"User Agreement"
+    },
+    "user-agreement-error":{
+        "ru":"Поставьте галочку в поле, которое вы прочитали и согласны с этим. Обязательное поле",
+        "en":"Check the box that you have read and agree. Required field"
+    },
+    "in-whtnickname":{
+        "ru":"Какой у тебя никнейм?",
+        "en":"What's your nickname?"
+    },
+    "in-whtnickname-error":{
+        "ru":"Такого пользователя не существует",
+        "en":"There is no such user!"
+    },
+    "in-whtpassword":{
+        "ru":"Какой у тебя пароль?",
+        "en":"What's your password?"
+    },
+    "in-whtpassword-error":{
+        "ru":"Неверный пароль",
+        "en":"Invalid password!"
+    },
+    "up1":{
+        "ru":"Регистрация",
+        "en":"Sign up"
+    },
+    "in1":{
+        "ru":"Вход",
+        "en":"Sign in"
+    },
+    "contact-me":{
+        "ru":"Свяжитесь со мной",
+        "en":"Contact Me"
+     },
+     "let-me":{
+        "ru":"Дайте мне знать, если захотите узнать о совместном проекте. Я готов работать фрилансером.",
+        "en":"Let me know if you want to talk about a potential collaboration. I'm available for freelance work."
+     },
+     "your-name":{
+        "ru":"Как тебя зовут?",
+        "en":"What's your name?"
+     },
+     "your-email":{
+        "ru":"Ваш электронный адрес?",
+        "en":"Your email?"
+     },
+     "your-project":{
+        "ru":"Расскажите мне о проекте",
+        "en":"Tell me about your project"
+     },
+     "get-quote":{
+        "ru":"Мое предложение",
+        "en":"Get a Quote"
+     },
+     "friends":{
+        "ru":"Давай дружить",
+        "en":"Let's be Friends"
+    },
+    "welcome":{
+        "ru":"Привет, администратор!",
+        "en":"Welcome, administrator!"
+     }
+}

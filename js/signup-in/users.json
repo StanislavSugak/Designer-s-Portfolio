@@ -1,0 +1,13 @@
+[
+    {
+        "name" : "Stas",
+        "surname" : "Sugak",
+        "patronymic" : "Nikolaevich",
+        "phone" : "375299561201",
+        "email" : "Stanislav71492584@gmail.com",
+        "birth" : "21.06.2005",
+        "nickname" : "Stan1slav",
+        "password" : "Sta_N1slav",
+        "role" : "admin"
+    }
+]
