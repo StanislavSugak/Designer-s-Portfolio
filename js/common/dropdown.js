@@ -5,5 +5,5 @@ function dropdown() {
 const dropBtn = document.querySelector('.dropdown-toggle');
 
 dropBtn.addEventListener('dblclick', function(){
-    location.href = "../pages/about.html";
+    location.href = "../index.html";
 });
