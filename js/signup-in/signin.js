@@ -50,7 +50,7 @@ function checkuser(){
         var ActiveUser = user[id];
         const actuser = JSON.stringify(ActiveUser);
         localStorage.setItem('ActiveUser', actuser);
-        window.location.href = "../index.html"
+        window.location.href = "../pages/index.html"
     }
     else{
         labelElementNameIN.classList.add('active');
