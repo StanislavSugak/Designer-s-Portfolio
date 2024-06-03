@@ -1,6 +1,6 @@
 var people;
 
-fetch('../js/about/testimonials.json')
+fetch('/js/about/testimonials.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Ой, ошибка в fetch: ' + response.statusText);
