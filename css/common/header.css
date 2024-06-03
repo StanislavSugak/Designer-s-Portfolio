@@ -215,6 +215,10 @@ dialog p:nth-child(4){
     display: none;  
 }
 
+.burger-menu > :last-child{
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .lng-russian, .lng-english{
     cursor: pointer;
 }
