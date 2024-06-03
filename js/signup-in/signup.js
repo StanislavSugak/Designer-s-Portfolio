@@ -1,31 +1,30 @@
-const contant_sign_up = document.querySelector('.sign-up-content');
-const sign_container = document.querySelector('.lower-btn');
+var signupCont = document.querySelector('.lower-btn');
 
-const sign_btn_all = sign_container.querySelectorAll('p');
-const sign_up_btn = sign_btn_all[0];
+var signBtnUpAll = signupCont.querySelectorAll('p');
+var signBtn = signBtnUpAll[0];
 
-sign_up_btn.addEventListener('click', read_data);
+signBtn.addEventListener('click', readdata);
 
-const field_id = ['name', 'surname', 'patronymic','phone','email','birth','nickname', 'password', 'passwordRepead','agree'];
+var field = ['name', 'surname', 'patronymic','phone','email','birth','nickname', 'password', 'passwordRepead','agree'];
+var check = true;
 var user;
 
-var check = true;
-
-function read_data(){
-    if(check_data()){
+function readdata(){
+    if(checkdata()){
         writedata();
         location.reload(); 
     }
 }
 
-function check_data(){
+function checkdata(){
     check = true;
 
-    var active_error = contant_sign_up.querySelectorAll('.active');
+    var contant = document.querySelector('.sign-up-content');
+    var act = document.querySelectorAll('.active');
 
-    if(active_error.length === 0){
-        for(let i = 0; i  < field_id.length; i++){
-            var form = document.getElementById(field_id[i]);
+    if(act.length === 0){
+        for(let i = 0; i  < field.length; i++){
+            var form = document.getElementById(field[i]);
             var input_error = form.querySelector('.input__error');
             
             if(i !== 2){    
@@ -77,8 +76,23 @@ async function writedata(){
     RewriteUser(user);
 }
 
+async function getUser(){
+    try {
+        const response = await fetch('../js/signup-in/users.json');
+        if (!response.ok) {
+          throw new Error('Ой, ошибка в fetch: ' + response.statusText);
+        }
+        const jsonData = await response.json();
+        return jsonData;
+    } catch (error) {
+        console.error('Ошибка при исполнении запроса: ', error);
+        return null;
+    }
+}
+
 function setnewUser(){
-    var data_input = contant_sign_up.querySelectorAll('input');
+    var data = document.querySelector('.sign-up-content');
+    var data_input = data.querySelectorAll('input');
 
     var newUser = {
         name: data_input[0].value,
@@ -111,17 +125,3 @@ window.addEventListener('DOMContentLoaded', async function() { //fix
         localStorage.setItem('user', usersString);
     }
 });
-
-async function getUser(){
-    try {
-        const response = await fetch('../js/signup-in/users.json');
-        if (!response.ok) {
-          throw new Error('Ой, ошибка в fetch: ' + response.statusText);
-        }
-        const jsonData = await response.json();
-        return jsonData;
-    } catch (error) {
-        console.error('Ошибка при исполнении запроса: ', error);
-        return null;
-    }
-}
