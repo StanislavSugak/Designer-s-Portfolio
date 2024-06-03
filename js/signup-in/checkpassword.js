@@ -18,7 +18,7 @@ button_show.addEventListener('click', showpassword);
 function removeErrorClass() {
     var inputValue = inputElementPassword.value;
 
-    var regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!"#$%&*+,\-()./:;<=>?@[\]^_{|}~])/;
+    var regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!"#$%&*+,\-()../:;<=>?@[\]^_{|}~])/;
 
     if(regex.test(inputValue) && inputValue.length > 7 && inputValue.length < 21){
         labelElementPassword.classList.remove('active');
