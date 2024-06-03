@@ -23,7 +23,7 @@ function iconsign() {
         }
     } else {
         console.log('no');
-        window.location.href = "/pages/signup-sin.html"
+        window.location.href = "../pages/signup-sin.html"
     }
 
 
@@ -39,5 +39,5 @@ window.addEventListener('scroll', function () {
 
 function logoutf(){
     localStorage.setItem('ActiveUser', '');
-    location.href = "/index.html";
+    location.href = "../index.html";
 }
