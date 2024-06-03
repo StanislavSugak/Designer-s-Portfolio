@@ -1,4 +1,4 @@
-fetch('../js/blog/en-ru.json')
+fetch('/js/blog/en-ru.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Ой, ошибка в fetch: ' + response.statusText);

@@ -78,7 +78,7 @@ async function writedata(){
 
 async function getUser(){
     try {
-        const response = await fetch('../js/signup-in/users.json');
+        const response = await fetch('/js/signup-in/users.json');
         if (!response.ok) {
           throw new Error('Ой, ошибка в fetch: ' + response.statusText);
         }
